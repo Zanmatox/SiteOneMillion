@@ -62,7 +62,7 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: url(/img/orange.jpg);
+    background: url(../img/orange.jpg);
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
