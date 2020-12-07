@@ -8,7 +8,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         .showpixel {
-            height: 300px;
+            height: 40rem;
             background-color: gray;
             text-align: center;
             justify-content: center;
@@ -28,13 +28,24 @@
 
         .containerEssai {
             height: 30rem;
-            border: solid 2px;
+            border: solid 2px orangered;
             margin-bottom: 1rem;
             width: 100%;
         }
 
         .test {
             width: 5rem;
+        }
+
+        .validerAchat {
+            background-color: orangered;
+            border: orangered 2px solid;
+            color: white;
+        }
+
+        .validerAchat:hover {
+            background-color: #E8D4B4;
+            color: black;
         }
     </style>
     <title>achatPixel</title>
@@ -46,9 +57,10 @@
             <div class="row ">
                 <div class="container showpixel">Aperçu de la 1 million euro page</div>
             </div>
-            <div class="row">
-                <div>
-                    <p> Apperçu de la page</p>
+            <div class="row ">
+                <div class="w-100">
+                    <p> Apperçu de la page</p> <div style="  border: solid 2px orangered;
+                    ">
                     <p> <img src="img/redsquare.png" class="smallsquares" alt=""> emplacements indisponibles</p>
                     <!-- carré rouge -->
                     <p> <img src="img/greysquare1.jpg" class="smallsquares" alt=""> emplacements disponibles</p>
@@ -57,52 +69,52 @@
                         emplacements à forte demande</p><!-- carré vide jaune -->
                     <p> <img src="img/blue square.svg" class="smallsquares" alt=""> votre emplacement</p>
                     <!-- carré bleu -->
-                    <div class="text-"></div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 bg-warning descriachatpixel">
+        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 descriachatpixel" style="background-color:#E8D4B4;">
             <div class="row mt-2">
                 <div class="col-2">
-                    <input name="nbPixels" class="form-control test" placeholder="0" type="text" disabled>
+                    <input name="nbPixels" class="form-control test py-1" placeholder="0" type="text" disabled>
                 </div>
-                <div class="col-4 ml-3 textPrice">
+                <div class="col-4 ml-3 py-1 textPrice">
                     pixels
                 </div>
 
                 <div class="col-2">
                     <input name="priceEuro" class="form-control test" placeholder="0" type="text" disabled>
                 </div>
-                <div class="col-1 ml-3 textPrice">
+                <div class="col-1 ml-3 py-1 textPrice">
                     €
                 </div>
             </div>
-                <div class="row">
-                    <form class="w-100 px-1">
-                        <div class="form-group mt-5 "style="text-align: center;">
-                            <label for="exampleFormControlFile1" >Rendu de l'image</label>
-                            <div class="container containerEssai"></div>
-                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                        </div>
-                    </form>
-                </div>
-                <div class="row px-3">
-                    <button type="submit" class="btn btn-outline-dark">Valider</button>
-                </div>
+            <div class="row">
+                <form class="w-100 px-1">
+                    <div class="form-group mt-5 " style="text-align: center;">
+                        <label for="exampleFormControlFile1">Rendu de l'image</label>
+                        <div class="container containerEssai"></div>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </form>
+            </div>
+            <div class="row px-3">
+                <button type="submit" class="btn validerAchat">Valider</button>
             </div>
         </div>
+    </div>
 
 
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
