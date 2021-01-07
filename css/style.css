@@ -1,158 +1,33 @@
-
-.jumbotron {
-    background-color:rgb(63, 62, 62); /* Orange */
-    color: #dd6300;
-    font-family: 'Quicksand', sans-serif;
-    padding: 100px 25px;
-  }
-
-  .container-fluid {
-    padding: 60px 50px;
-    text-align: center;
-  }
-
-  .bg-grey {
-    background-color: #f6f6f6;
-  }
-
-  .logo {
-    font-size: 200px;
-  }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-  }
-
-  .logo-small {
-    color: #f4511e;
-    font-size: 50px;
-  }
-  
-  .logo {
-    color: #f4511e;
-    font-size: 200px;
-  }
-
-  /*Prix*/
-
-  .panel {
-    border: 1px solid #f4511e;
-    border-radius:0;
-    transition: box-shadow 0.5s;
-  }
-  
-  .panel:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  }
-  
-  .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e;
-  }
-  
-  .panel-heading {
-    color: #fff !important;
-    background-color: #f4511e !important;
-    padding: 25px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-  
-  .panel-footer {
-    background-color: #fff !important;
-  }
-  
-  .panel-footer h3 {
-    font-size: 32px;
-  }
-  
-  .panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
-  }
-  
-  .panel-footer .btn {
-    margin: 15px 0;
-    background-color: #f4511e;
-    color: #fff;
-  }
-
-  /*Navbar*/
-
-  .navbar {
-    margin-bottom: 0;
-    background-color: #f4511e;
-    z-index: 9999;
-    border: 0;
-    font-size: 14px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-  }
-  
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-  }
-  
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
-  }
-  
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-  }
-  
-  #footer {
-    position: absolute;
-    bottom: 35px;
-    left: 0;
-    right: 0;
-    padding: 0 15px;
-  }
-
-  /* Infomartion 
-
-#informations {
-  width: 320px;
-  height: 420px;
-  
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  padding: 60px 50px;
-}
-
-#informations label{
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-}
-
-#informations input{
-  margin-bottom: 10px;
-  width: 100%;
-}
-
-#informations button{
-  border: none;
-  outline: none;
-  height: 40px;
+.navbar {
+  margin-bottom: 0;
   background: url(../img/orange.jpg);
-  border-radius: 20px;
-  color: #fff;
-  
+  z-index: 9999;
+  border: 0;
+  font-size: 14px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
 }
 
-#informations button:hover {
-  cursor: pointer;
-  background: #ffc107;
-  color: #000;
-}*/
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  
+  border-color: transparent;
+  color: #fff !important;
+}
+
+#footer {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+}
