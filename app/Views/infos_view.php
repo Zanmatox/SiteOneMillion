@@ -5,8 +5,12 @@
             <h3 class="text-center">Informations</h3>
             <form action="" class="form-group">
                 <div class="form-group">
-                    <label for="name">Nom : </label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required>
+                    <label for="nom">Nom : </label>
+                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom : </label>
+                    <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Nom" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Adresse mail :</label>
@@ -19,10 +23,6 @@
                 <div class="form-group">
                     <label for="name">Entreprise :</label>
                     <input type="text" class="form-control" id="subject" name="name" placeholder="Entreprise" required>
-                </div>
-                <div class="form-group">
-                    <label for="name">Message :</label>
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="button" id="enregistrer" name="enregistrer" class="btn btn-primary">Enregistrer</button>
@@ -38,7 +38,7 @@
 #informations {
     width: 520px;
     height: 420px;
-    left: 35%;
+    left: 33%;
     position: sticky;
     padding: 60px 50px;
 }
@@ -61,7 +61,7 @@
     background: url(../img/orange.jpg);
     border-radius: 20px;
     color: #fff;
-    margin: 0 33%;
+    margin: 0 40%;
     
   }
 
