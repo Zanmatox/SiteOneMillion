@@ -34,9 +34,11 @@ class OneMillionEuros extends BaseController
     }
 
     function signin(){
-        return view('signin');
-
+        echo view('templates/header_view');
+        echo view('signin');
+        echo view('templates/footer_view');
     }
+
     function mdpoublie(){
         return view('mdpoublie');
     }

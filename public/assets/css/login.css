@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!--Header login-->
-    <title>Page de connexion</title>
-    <link rel="stylesheet" type="text/css" href="public/assets/css/login.css">
-
-</head>
-<body>
-    <div class="loginbox">
-        <img src="public/assets/css/img/avatar_orange.png" class="avatar">
-        <h1>Connexion</h1>
-        <!--form-->
-        <form class="" action="/" method="post">
-
-            <p>Email</p>
-            <!--label for="email">Email</label-->
-            <input type="text" class="form-control" name="email" id="email" placeholder="<?= set_value('email') ?>">
-            <!--imput type="text" class="form-control" name="email" id="email" value="<?= set_value('email') ?>"-->
-            <p>Mot de passe</p>
-            <!--label for="password">Mot de passe</label-->
-            <input type="password" class="form-control" name="password" id="password" placeholder="Entrez votre mot de passe">
-            <!--imput type="text" class="form-control" name="password" id="password" value=""-->
-            <input type="submit" name="" value="Connexion">
-            <a href="<?php echo base_url("/mdpoublie")?>">Mot de passe oublié?</a><br>
-            <a href="<?php echo base_url("/signin")?>">Pas de compte?</a>
-        </form>
-        
-    </div>
-
-</body>
-</html>
-
-<style>
-    body{
+body{
     margin: 0;
     padding: 0;
     background:#f6f6f6;
@@ -118,4 +84,3 @@ h1{
 {
     color: #ffc107;
 }
-</style>

@@ -31,10 +31,10 @@
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("/onemillioneuros")?>">Home</a>
+                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("")?>">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("/onemillioneuros/login")?>">Log In</a>
+                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("/login")?>">Log In</a>
                                 </li>
                             </ul>
                         </div>
