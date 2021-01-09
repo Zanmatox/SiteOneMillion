@@ -26,10 +26,12 @@ body{
 
 #showcase h1{
     font-size:50px;
+    color: #f85b00;
 }
 
 #showcase p{
     font-size: 20px;
+    /*color: #f85b00;*/
 }
 
 #showcase .button{
@@ -62,4 +64,52 @@ body{
 #showcase .button2:hover{
     background: #ffc107;
     color: #000;
+}
+
+.tm-mf{
+    width: 400px;
+    height: 200px;
+  
+}
+
+.tm-content-box {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+.tm-text-primary {
+    /*color: #37A;*/
+    color: #f85b00;
+  }
+
+  .tm-btn-primary {
+    color: white;
+    /*background-color: #369;*/
+    background: url(../img/orange.jpg);
+    border-radius:10px;
+    padding: 14px 30px;
+  }
+  
+  .tm-btn-primary:hover,
+  .tm-btn-primary:focus {
+    color: white;
+    background-color: #38B;
+  }
+
+  .tm-intro-text {
+    font-size: 1.2rem;
+  }
+
+  .tm-continue {
+    padding: 20px 0 30px 0;
+}
+
+@media (max-width: 991px) {
+.tm-intro-text-container {
+    padding-left: 15px;
+    padding-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
