@@ -9,6 +9,7 @@ class OneMillionEuros extends BaseController
 		//echo 'Hello Codeigniter 4';
 
         echo view('templates/header_view');
+        echo view('accueil');
         echo view('templates/footer_view');
     }
 
@@ -18,7 +19,9 @@ class OneMillionEuros extends BaseController
 
         helper(['form']);
 
-        return view('login_view');
+        echo view('templates/header_view');
+        echo view('login_view');
+        echo view('templates/footer_view');
     }
 
     function infos(){
@@ -40,15 +43,27 @@ class OneMillionEuros extends BaseController
     }
 
     function mdpoublie(){
-        return view('mdpoublie');
+        echo view('templates/header_view');
+        echo view('mdpoublie');
+        echo view('templates/footer_view');
     }
 
     function deleteacc(){
-        return view('deleteacc');
+        echo view('templates/header_view');
+        echo view('deleteacc');
+        echo view('templates/footer_view');
     }
 
     function deleteaccconf(){
-        return view('deleteaccconf');
+        echo view('templates/header_view');
+        echo view('deleteaccconf');
+        echo view('templates/footer_view');
+    }
+
+    function accueil(){
+        echo view('templates/header_view');
+        echo view('accueil');
+        echo view('templates/footer_view');
     }
 }
 ?>

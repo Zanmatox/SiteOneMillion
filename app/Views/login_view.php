@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="loginbox">
-        <img src="public/assets/css/img/avatar_orange.png" class="avatar">
+        <img src="./public/assets/css/img/avatar_orange.png" class="avatar">
         <h1>Connexion</h1>
         <!--form-->
         <form class="" action="/" method="post">
@@ -96,7 +96,7 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: url(../img/orange.jpg);
+    background: url(../css/img/orange.jpg);
     color: #fff;
     font-size: 18px;
     border-radius: 20px;

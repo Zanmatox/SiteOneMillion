@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost:8080/my-app/bacasable/SiteOneMillion/';
+	public $baseURL = 'http://localhost/SiteOneMillion/';
 
 	/*
 	|--------------------------------------------------------------------------

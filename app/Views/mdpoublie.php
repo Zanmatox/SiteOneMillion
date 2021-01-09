@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<title>Page de renvois de mot de passe</title>
-    <link rel="stylesheet" type="text/css" href="../css/mdpoublie.css">
+
+    <link rel="stylesheet" type="text/css" href="../../public/assets/css/mdpoublie.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<body>
     <div class="box">
         <h1>Renvois de mot de passe</h1>
         <form>
@@ -26,10 +22,8 @@
             </div>
         </div>
         </form> 
-        
     </div>
 
-</body>
-</head>
-</html>
+
+
 
