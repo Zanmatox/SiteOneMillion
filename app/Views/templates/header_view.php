@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../../public/assets/css/style.css">
  
   </head>
 
@@ -31,10 +30,10 @@
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("/onemillioneuros")?>">Home</a>
+                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("")?>">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("/onemillioneuros/login")?>">Log In</a>
+                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("/login")?>">Log In</a>
                                 </li>
                             </ul>
                         </div>

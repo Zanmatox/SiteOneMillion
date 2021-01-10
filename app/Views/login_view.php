@@ -3,12 +3,12 @@
 <head>
     <!--Header login-->
     <title>Page de connexion</title>
-    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="public/assets/css/login.css">
 
 </head>
 <body>
     <div class="loginbox">
-        <img src="../img/avatar_orange.png" class="avatar">
+        <img src="./public/assets/css/img/avatar_orange.png" class="avatar">
         <h1>Connexion</h1>
         <!--form-->
         <form class="" action="/" method="post">
@@ -22,8 +22,8 @@
             <input type="password" class="form-control" name="password" id="password" placeholder="Entrez votre mot de passe">
             <!--imput type="text" class="form-control" name="password" id="password" value=""-->
             <input type="submit" name="" value="Connexion">
-            <a href="<?php echo base_url("/onemillioneuros/mdpoublie")?>">Mot de passe oublié?</a><br>
-            <a href="<?php echo base_url("/onemillioneuros/signin")?>">Pas de compte?</a>
+            <a href="<?php echo base_url("/mdpoublie")?>">Mot de passe oublié?</a><br>
+            <a href="<?php echo base_url("/signin")?>">Pas de compte?</a>
         </form>
         
     </div>
@@ -96,7 +96,7 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: url(../img/orange.jpg);
+    background: url(../css/img/orange.jpg);
     color: #fff;
     font-size: 18px;
     border-radius: 20px;

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <title>Page de suppression du compte</title>
-    <link rel="stylesheet" type="text/css" href="../css/deleteacc.css">
+    <link rel="stylesheet" type="text/css" href="../../public/assets/css/deleteacc.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <body>
     <div class="deletebox">
