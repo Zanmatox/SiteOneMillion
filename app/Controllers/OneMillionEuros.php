@@ -71,9 +71,5 @@ class OneMillionEuros extends BaseController
         echo view('emplacementpixel_view');
         echo view('templates/footer_view');
     }
-
-    function emplacementpixel(){
-        return view('emplacementpixel_view');
-    }
 }
 ?>
