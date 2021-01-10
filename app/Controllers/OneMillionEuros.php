@@ -25,12 +25,12 @@ class OneMillionEuros extends BaseController
         echo view('templates/footer_view');
     }
 
-    function accueil()
+    /*function accueil()
     {
         echo view('templates/header_view');
         echo view('accueil');
         echo view('templates/footer_view');
-    }
+    }*/
 
     function emplacementpixel()
     {
