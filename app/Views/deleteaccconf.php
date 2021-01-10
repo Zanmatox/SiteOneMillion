@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Confirmation suppression</title>
-    <link rel="stylesheet" type="text/css" href="../../public/assets/css/deleteaccconf.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/deleteaccconf.css">
 <body>
     <div class="messagebox">
         <h1>Votre compte a bien été supprimé</h1>
