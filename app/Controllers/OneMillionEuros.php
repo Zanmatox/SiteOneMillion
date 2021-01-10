@@ -48,5 +48,9 @@ class OneMillionEuros extends BaseController
     function deleteaccconf(){
         return view('deleteaccconf');
     }
+
+    function emplacementpixel(){
+        return view('emplacementpixel_view');
+    }
 }
 ?>
