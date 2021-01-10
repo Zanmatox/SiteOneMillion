@@ -24,18 +24,6 @@ class OneMillionEuros extends BaseController
         echo view('templates/footer_view');
     }
 
-    function infos(){
-
-        $data = [];
-
-        helper(['url']);
-        helper(['form']);
-        
-        echo view('templates/header_view');
-        echo view('infos_view');
-        echo view('templates/footer_view');
-    }
-
     function signin(){
         echo view('templates/header_view');
         echo view('signin');
