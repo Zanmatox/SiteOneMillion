@@ -1,7 +1,7 @@
 
-<link rel="stylesheet" type="text/css" href="public/assets/css/signin.css">
+<link rel="stylesheet" type="text/css" href="../public/assets/css/signin.css">
         <div class="signinbox"> 
-            <img src="../img/avatar_orange.png" class="avatar">
+            <img src="../public/assets/img/avatar_orange.png" class="avatar">
             <h1>Creation de compte</h1>
             <form>
                 <p>Nom d'utilisateur</p>

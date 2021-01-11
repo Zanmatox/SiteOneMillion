@@ -1,9 +1,9 @@
       <!-- Footer -->
       <footer>
-        <section id="footer">
-            <div class="text-center">
-                <a class="link" href="#">Term of use</a>
-            </div>
+        <section class="container-fluid text-center">
+            <a href="<?php echo base_url("")?>" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
         </section>
       </footer>
       <!-- End Footer -->

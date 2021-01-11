@@ -58,7 +58,7 @@
     border: none;
     outline: none;
     height: 40px;
-    background: url(../img/orange.jpg);
+    background: url(public/assets/img/orange.jpg);
     border-radius: 20px;
     color: #fff;
     margin: 0 40%;

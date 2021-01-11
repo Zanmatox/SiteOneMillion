@@ -1,5 +1,5 @@
 
-    <link rel="stylesheet" type="text/css" href="../../public/assets/css/mdpoublie.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/mdpoublie.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <div class="box">
         <h1>Renvois de mot de passe</h1>
