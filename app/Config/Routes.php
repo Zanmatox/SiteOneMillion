@@ -32,8 +32,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'OneMillionEuros::index');
 
-$routes->get('/', 'OneMillionEuros::infos');
-$routes->get('/', 'OneMillionEuros::login');
+$routes->get('/Infos', 'OneMillionEuros::Infos');
+$routes->get('/Login', 'OneMillionEuros::Login');
 $routes->get('/signin', 'OneMillionEuros::signin');
 $routes->get('/mdpoublie', 'OneMillionEuros::mdpoublie');
 
