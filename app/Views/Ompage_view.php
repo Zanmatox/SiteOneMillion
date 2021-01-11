@@ -202,7 +202,7 @@
                 <p><span class="glyphicon glyphicon-phone"></span> 0123456789</p>
                 <p><span class="glyphicon glyphicon-envelope"></span> onemillion@afpa.fr</p>
               </div>
-              <form method="post" action="<?php echo base_url('/index.php/ContactController/form') ?>">
+              <form method="post" action="<?php echo base_url('/ContactController/form') ?>">
                 <div class="col-sm-7">
                   <div class="row">
                     <div class="col-sm-6 form-group">
