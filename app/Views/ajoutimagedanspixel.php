@@ -5,7 +5,7 @@
                 Ajoutez vos images ici
             </h1>
                 <div class="additional">
-                    Obtenir des liens permanents pour Facebook, Twitter, forums de discussion et blogs
+                    Devenez propriétaires d'une partie des pixels qui feront parler de vous dans l'histoire
                 </div>
                     <div id="uploader">
 	                    <div class="container">
@@ -22,10 +22,10 @@
                                                     <i class="fa fa-lg fa-folder-open-o">
                                                     
                                                     </i> 
-                                                    Choisissez images
+                                                    Choisissez image
                                                 </span>
                                                 <p class="align-center">
-                                                    Cliquez pour choisir, copier et coller ou glisser-déposer des fichiers n'importe où
+                                                    Cliquez pour choisir, copier et coller ou glisser-déposer votre image !
                                                 </p>
                                                 <p>	
 
