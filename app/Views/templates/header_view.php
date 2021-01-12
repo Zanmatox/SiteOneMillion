@@ -34,7 +34,7 @@
                                     <a class="nav-link tm-nav-link"  href="<?php echo base_url("")?>">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link"  href="<?php echo base_url("/login")?>">Log In</a>
+                                    <a class="nav-link tm-nav-link"  href="<?= base_url("/login")?>">Log In</a>
                                 </li>
                             </ul>
                         </div>

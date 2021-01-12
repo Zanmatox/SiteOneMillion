@@ -1,0 +1,40 @@
+.showpixel {
+    height: 40rem;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 12%;
+}
+
+.smallsquares {
+    height: 15px;
+    width: 15px;
+}
+
+.textPrice {
+    vertical-align: center;
+    font-size: larger;
+}
+
+.containerEssai {
+    height: 30rem;
+    border: solid 2px orangered;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.test {
+    width: 5rem;
+}
+
+.validerAchat {
+    background-color: orangered;
+    border: orangered 2px solid;
+    color: white;
+}
+
+.validerAchat:hover {
+    background-color: #E8D4B4;
+    color: black;
+}
