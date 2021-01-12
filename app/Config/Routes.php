@@ -36,6 +36,7 @@ $routes->get('/infos', 'OneMillionEuros::infos');
 $routes->get('/login', 'Login');
 $routes->get('/signin', 'Login::signin');
 $routes->get('/mdpoublie', 'Login::mdpoublie');
+$routes->get('/emplacementpixel_view','Login::emplacementpixel_view');
 
 /**
  * --------------------------------------------------------------------
