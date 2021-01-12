@@ -16,37 +16,6 @@
 						<td id="tablebreak" width="1">
 
 						</td>
-						<td>
-							<div id="toplogo">
-								<a target="_self" href="./public/assets/img/index.html">
-									<img src="./public/assets/img/logo-tm.gif" border="0" width="360" height="36" alt="The Million Dollar Homepage" style="position:absolute; LEFT: 11; TOP: 7px; z-index: 1;">
-								</a>
-								<div style="background:#646464;position:absolute; LEFT: 405; TOP: 0px; z-index: 1; height:44px;width:428px;">
-									<img src="./public/assets/img/toptag2top.gif" width="428" height="24" border="0" alt="1,000,000 pixels - $1 per pixel - Own a piece of internet history!">
-									<table cellpadding="0" cellspacing="0" border="0">
-										<tbody>
-											<tr>
-												<td style="text-align: center">
-
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-								<div id="stats">
-									<!--<font id="stat1">Sold:</font> <font id="statgreen">1,000,000</font><br><font id="stat1">Available:</font> <font id="statred">None!</font>-->
-								</div>
-							</div>
-
-						</td>
-						<td id="tablebreak" width="1">
-
-						</td>
-					</tr>
-					<tr>
-						<td id="tablebreak" width="1">
-
-						</td>
 						<td bgcolor="#d9ab22" background="./public/assets/img/navbg.gif" height="20">
 
 
@@ -58,7 +27,7 @@
 										<td>
 											<a class="nav" href="http://localhost:8080/SiteOneMillion/">Accueil</a> &nbsp;|&nbsp; 
 											<a class="nav" href="http://localhost:8080/SiteOneMillion/achatpixel.php">Achat de Pixels</a> &nbsp;|&nbsp; 
-											<a class="nav" href="http://localhost:8080/SiteOneMillion/infos">INFOS</a> &nbsp;|&nbsp;
+											<a class="nav" href="http://localhost:8080/SiteOneMillion/infos">Infos</a> &nbsp;|&nbsp;
 											<a class="nav" href="http://localhost:8080/SiteOneMillion/pixellist.php">Liste des Pixels</a> &nbsp;|&nbsp;
 											<a class="nav" href="http://localhost:8080/SiteOneMillion/Contact">Contactez nous</a>
 										</td>
@@ -100,16 +69,6 @@
 						</td>
 						<td id="tablebreak" width="1">
 
-						</td>
-					</tr>
-						<!-- end actual page content -->
-					<tr>
-						<td id="note" height="24" colspan="3">
-							One Million euro Homepage © 2021 CDA. 
-							Tout droits réservés. 
-							Nous ne sommes pas responsables du contenu des sites externes. 
-							Les images présentées sur la page d'accueil sont © de leurs propriétaires respectifs.
-						<br>
 						</td>
 					</tr>			
 				</tbody>
