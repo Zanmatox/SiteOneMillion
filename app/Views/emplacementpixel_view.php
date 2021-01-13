@@ -36,8 +36,9 @@
 										<map name="Map" id="Map">
 											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="630,310,640,320" href="http://www.getpixel.net/" title="getpixel.net, stock photography">
 											
-										</map><img name="twee" id="twee" src="./public/assets/img/image-map.png" width="1000" height="1000" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
-										<img name="een" id="een" src="./public/assets/img/image-map(1).png" width="2000" height="2000" border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
+										</map>
+										<img src="./public/assets/img/image-map.png" width="1000" height="1000" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
+										<img src="./public/assets/img/image-map(1).png" width="2000" height="2000" border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
 										<img src="./public/assets/img/neg.gif" name="neg" id="neg" width="1000" height="1000" style="position:absolute;top:0px;left:0px;display:none">
 									</div>
 								</td>
