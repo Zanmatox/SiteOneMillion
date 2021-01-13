@@ -36,7 +36,7 @@ $routes->get('/infos', 'OneMillionEuros::infos');
 $routes->get('/login', 'Login');
 $routes->get('/signin', 'Login::signin');
 $routes->get('/mdpoublie', 'Login::mdpoublie');
-$routes->get('/emplacementpixel_view','Achat::emplacementpixel_view');
+$routes->get('/emplacementpixel_view','Ajoutimgdspxl::emplacementpixel_view');
 $routes->get('/ajoutimagedanspixel','Achat::ajoutimagedanspixel');
 
 /**
