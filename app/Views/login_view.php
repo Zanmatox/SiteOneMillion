@@ -15,22 +15,22 @@
 
             <p>Email</p>
             <!--label for="email">Email</label-->
-            <input type="text" class="form-control" name="email" id="email" placeholder="<?= set_value('email') ?>">
+            <input type="text" class="form-control" name="email" id="email" placeholder="<?= set_value('email') ?>Entrez votre email">
             <!--imput type="text" class="form-control" name="email" id="email" value="<?= set_value('email') ?>"-->
             <p>Mot de passe</p>
             <!--label for="password">Mot de passe</label-->
             <input type="password" class="form-control" name="password" id="password" placeholder="Entrez votre mot de passe">
             <!--imput type="text" class="form-control" name="password" id="password" value=""-->
             <input type="submit" name="" value="Connexion">
-            <a href="<?php echo base_url("/mdpoublie")?>">Mot de passe oublié?</a><br>
-            <a href="<?php echo base_url("/signin")?>">Pas de compte?</a>
+            <a href="<?php echo base_url("/login/mdpoublie")?>">Mot de passe oublié?</a><br>
+            <a href="<?php echo base_url("/login/signin")?>">Pas de compte?</a>
         </form>
         
     </div>
 
 </body>
 </html>
-
+<!-- Plus nécessaire car chemin vers dossier css fonctionel
 <style>
     body{
     margin: 0;
@@ -96,7 +96,7 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: url(../css/img/orange.jpg);
+    background: url(public/assets/img/orange.jpg);
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -119,3 +119,4 @@ h1{
     color: #ffc107;
 }
 </style>
+-->
