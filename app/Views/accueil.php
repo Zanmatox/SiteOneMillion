@@ -28,7 +28,7 @@
                         Le but de ce site web est de vendre tous les pixels afin de récolter un million d'euros a l'image du <br> <strong>"The Million Dollar Homepage"</strong></p>
                         <img class="tm-mf" src="./public/assets/img/homepage.png" >
                         <div class="tm-continue">
-                            <a href="<?php echo base_url("/ompage")?>" class="button">En savoir plus</a>
+                            <a href="<?php echo base_url("/ompage")?>" target="_blank" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         Les revenus récupérés par ce projet seront reverser aux oeuvres caritatives micro fermes<br>
                             
                         <div class="tm-continue">
-                            <a href="<?php echo base_url("/assospage")?>" class="button2">En savoir plus</a>
+                            <a href="<?php echo base_url("/assospage")?>" target="_blank" class="button2">En savoir plus</a>
                         </div>
                     </div>
                 </div>
