@@ -34,7 +34,7 @@
 
 									<div id="pixels" style="z-index:1">
 										<map name="Map" id="Map">
-											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="630,310,640,320" href="http://www.getpixel.net/" title="getpixel.net, stock photography">
+											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="0,1000,0,1000" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">
 											
 										</map>
 										<img src="./public/assets/img/image-map.png" width="1000" height="1000" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
