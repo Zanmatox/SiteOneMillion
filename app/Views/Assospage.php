@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="<?php echo base_url('site_assos/css/bootstrap.min.css'); ?>" />
     <link rel="stylesheet" href="<?php echo base_url('site_assos/css/tooplate-infinite-loop.css'); ?>" />
     <link rel="stylesheet" href="<?php echo base_url('site_assos/css/style.css'); ?>">
+    
     <link href="<?php echo base_url('site_assos/lightbox2-2.11.3/dist/css/lightbox.css'); ?>" rel="stylesheet"/>
    
 
@@ -35,10 +36,13 @@
                   <a class="nav-link tm-nav-link" href="#infinite">Acceuil</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#whatwedo">A propos de nous</a>
+                  <a class="nav-link tm-nav-link" href="#objectif">Objectif</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link tm-nav-link" href="#gallery">Galeries</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="#gallery">A propos de nous</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link tm-nav-link" href="#contact">Contact</a>
@@ -51,28 +55,28 @@
       <div class="text-center tm-hero-text-container">
         <div class="tm-hero-text-container-inner">
             <h2 class="tm-hero-title">Les microfermes</h2>
-            <p class="tm-hero-subtitle">
+            <!--<p class="tm-hero-subtitle">
               Bootstrap 4.0 Parallax Theme
               <br>Free HTML Template by TOOPLATE
-            </p>
+            </p>-->
         </div>        
       </div>
 
       <div class="tm-next tm-intro-next">
-        <a href="#whatwedo" class="text-center tm-down-arrow-link">
+        <a href="#objectif" class="text-center tm-down-arrow-link">
           <i class="fas fa-2x fa-arrow-down tm-down-arrow"></i>
         </a>
       </div>      
     </section>
 
-    <section id="whatwedo" class="tm-section-pad-top">
+    <section id="objectif" class="tm-section-pad-top">
       <div class="container">
             <div class="row tm-content-box"><!-- first row -->
                 <div class="col-lg-12 col-xl-12">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">A propos de nous</h2>
+                        <h2 class="tm-text-primary mb-4 tm-section-title">Objectif</h2>
                         <p class="mb-4 tm-intro-text">
-                         Nous sommes des stagiaires en reconversion professionelle en Informatique. Nous réalisons ce projet pour les micros fermes. <a href="https://fb.com/tooplate">Tooplate Facebook page</a>.</p>
+                         Nous sommes des stagiaires en reconversion professionelle en Informatique. Nous réalisons ce projet pour les microsfermes.</p>
                     </div>
                 </div>
 
@@ -80,13 +84,13 @@
             
             <div class="row tm-content-box"><!-- second row -->
         		<div class="col-lg-1">
-                    <i class="far fa-3x fa-chart-bar text-center tm-icon"></i>
+                    <i class="far fa-3x fas fa-hands-helping text-center tm-icon"></i>
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Market Analysis</h2>
+                        <h2 class="tm-text-primary mb-4">Solidarité</h2>
                         <p class="mb-4 tm-intro-text">
-                          Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est urna.</p>
+                          Le but des microfermes est d'aider les personnes qui sont les plus démunié en les intégrant dans l'association</p>
                     </div>
                 </div>
                 
@@ -95,7 +99,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Fast Support</h2>
+                        <h2 class="tm-text-primary mb-4">Autonomie</h2>
                         <p class="mb-4 tm-intro-text">
                           Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> website for all images used in this template. Cras condimentum mi et sapien dignissim luctus.</p>
                     </div>
@@ -109,7 +113,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Top Security</h2>
+                        <h2 class="tm-text-primary mb-4">Apprentissage</h2>
                         <p class="mb-4 tm-intro-text">
                       You have <strong>no</strong> authority to post this template as a ZIP file on your template collection websites. You can <strong>use</strong> this template for your commercial websites.</p>
                           
@@ -124,7 +128,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
-                      <h2 class="tm-text-primary mb-4">Social Work</h2>
+                      <h2 class="tm-text-primary mb-4">Anti-Gaspillage</h2>
                         <p class="mb-4 tm-intro-text">
                       You can change <a href="https://fontawesome.com/icons?d=gallery">Font Awesome icons</a> by either <b><em>fas or far</em></b> in the HTML codes. For Examples:<br>
                       <em>&lt;i class=&quot;fas fa-users&quot;&gt;&lt;i class=&quot;far fa-chart-bar&quot;&gt;</em> </p>
@@ -139,6 +143,95 @@
 
         </div>
       </section>
+
+<!--Gallery-->
+<section id="gallery" class="tm-section-pad-top">
+      <div class="container tm-container-gallery">
+        <div class="row">
+          <div class="text-center col-12">
+              <h2 class="tm-text-primary tm-section-title mb-4">Galeries</h2>
+              <p class="mx-auto tm-section-desc">
+                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est urna, lobortis eu arcu a, aliquet tristique urna.
+              </p>
+          </div>            
+        </div>
+      
+        <div class="row">
+            <div class="col-12">
+                <div class="mx-auto tm-gallery-container">
+                    <div class="grid tm-gallery">
+                      <a href="<?php echo base_url('site_assos/img/galerie1.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie1.JPG'); ?>" alt="Image 1" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Physical Health <span>Exercise!</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="<?php echo base_url('site_assos/img/galerie2.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie2.JPG'); ?>" alt="Image 2" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Rain on Glass <span>Second Image</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="<?php echo base_url('site_assos/img/galerie3.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie3.JPG'); ?>" alt="Image 3" class="img-fluid">
+                          <figcaption>
+                            <h2><i><span>Sea View</span> Mega City</i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="<?php echo base_url('site_assos/img/galerie4.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie4.JPG'); ?>" alt="Image 4" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Dream Girl <span>Thoughts</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href= "<?php echo base_url('site_assos/img/galerie5.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie5.JPG'); ?>" alt="Image 5" class="img-fluid">
+                          <figcaption>
+                            <h2><i><span>Workstation</span> Offices</i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href= "<?php echo base_url('site_assos/img/galerie6.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie6.JPG'); ?>" alt="Image 6" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Just Above <span>The City</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href= "<?php echo base_url('site_assos/img/galerie7.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie7.JPG'); ?>" alt="Image 7" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Another <span>Exercise Time</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href= "<?php echo base_url('site_assos/img/galerie8.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/galerie8.JPG'); ?>" alt="Image 8" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Repeated <span>Image Spot</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                </div>                
+            </div>        
+          </div>
+      </div>
+    </section>
+
+
 <!--Meet the team-->
       <section id="team" class="tm-section-pad-top">
         <div class="wrapper">
@@ -228,91 +321,7 @@
       </section>
      
 
-    <section id="gallery" class="tm-section-pad-top">
-      <div class="container tm-container-gallery">
-        <div class="row">
-          <div class="text-center col-12">
-              <h2 class="tm-text-primary tm-section-title mb-4">Gallery </h2>
-              <p class="mx-auto tm-section-desc">
-                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est urna, lobortis eu arcu a, aliquet tristique urna.
-              </p>
-          </div>            
-        </div>
-      
-        <div class="row">
-            <div class="col-12">
-                <div class="mx-auto tm-gallery-container">
-                    <div class="grid tm-gallery">
-                      <a href="<?php echo base_url('site_assos/img/galerie1.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie1.JPG'); ?>" alt="Image 1" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Physical Health <span>Exercise!</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="<?php echo base_url('site_assos/img/galerie2.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie2.JPG'); ?>" alt="Image 2" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Rain on Glass <span>Second Image</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="<?php echo base_url('site_assos/img/galerie3.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie3.JPG'); ?>" alt="Image 3" class="img-fluid">
-                          <figcaption>
-                            <h2><i><span>Sea View</span> Mega City</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href="<?php echo base_url('site_assos/img/galerie4.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie4.JPG'); ?>" alt="Image 4" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Dream Girl <span>Thoughts</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href= "<?php echo base_url('site_assos/img/galerie5.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie5.JPG'); ?>" alt="Image 5" class="img-fluid">
-                          <figcaption>
-                            <h2><i><span>Workstation</span> Offices</i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href= "<?php echo base_url('site_assos/img/galerie6.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie6.JPG'); ?>" alt="Image 6" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Just Above <span>The City</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href= "<?php echo base_url('site_assos/img/galerie7.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie7.JPG'); ?>" alt="Image 7" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Another <span>Exercise Time</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                      <a href= "<?php echo base_url('site_assos/img/galerie8.JPG'); ?>" data-lightbox="img">
-                        <figure class="effect-honey tm-gallery-item">
-                          <img src="<?php echo base_url('site_assos/img/galerie8.JPG'); ?>" alt="Image 8" class="img-fluid">
-                          <figcaption>
-                            <h2><i>Repeated <span>Image Spot</span></i></h2>
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </div>
-                </div>                
-            </div>        
-          </div>
-      </div>
-    </section>
+    
 
     <!-- Contact -->
     <section id="contact" class="tm-section-pad-top tm-parallax-2">
@@ -329,47 +338,40 @@
             </div>
             
             <div class="col-sm-12 col-md-6">
-              <form action="" method="get">
-                <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
-                <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
-                <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
-                <button type="submit" class="btn tm-btn-submit">Submit</button>
+            <form method="post" action="<?php echo base_url('ContactAssosController/form') ?>">
+                <input id="name" name="Nom" type="text" placeholder="Your Name" class="tm-input" required />
+                <input id="email" name="Email" type="email" placeholder="Your Email" class="tm-input" required />
+                <textarea id="message" name="Message" rows="8" placeholder="Message" class="tm-input" required></textarea>
+                <button type="submit" class="btn tm-btn-submit">Envoyer</button>
               </form>
             </div>
             
             <div class="col-sm-12 col-md-6">
+                  <div class="contact-item">
+                    <a rel="nofollow" href="mailto:mail@company.com" class="item-link">
+                        <i class="far fa-2x fa-envelope mr-4"></i>
+                        <span class="mb-0">mail@company.com</span>
+                    </a>              
+                  </div>
+                  
+                  <div class="contact-item">
+                    <a rel="nofollow" href="https://www.google.com/maps" class="item-link">
+                        <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
+                        <span class="mb-0">Notre Location</span>
+                    </a>              
+                  </div>
+                  
+                  <div class="contact-item">
+                    <a rel="nofollow" href="tel:0100200340" class="item-link">
+                        <i class="fas fa-2x fa-phone-square mr-4"></i>
+                        <span class="mb-0">0123456789</span>
+                    </a>              
+                  </div>
+                  
+                  <div class="contact-item">&nbsp;</div>
 
-                <div class="contact-item">
-                  <a rel="nofollow" href="https://www.tooplate.com/contact" class="item-link">
-                      <i class="far fa-2x fa-comment mr-4"></i>
-                      <span class="mb-0">Chat Online</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item">
-                  <a rel="nofollow" href="mailto:mail@company.com" class="item-link">
-                      <i class="far fa-2x fa-envelope mr-4"></i>
-                      <span class="mb-0">mail@company.com</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item">
-                  <a rel="nofollow" href="https://www.google.com/maps" class="item-link">
-                      <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
-                      <span class="mb-0">Our Location</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item">
-                  <a rel="nofollow" href="tel:0100200340" class="item-link">
-                      <i class="fas fa-2x fa-phone-square mr-4"></i>
-                      <span class="mb-0">255-662-5566</span>
-                  </a>              
-                </div>
-                
-                <div class="contact-item">&nbsp;</div>
-            
             </div>
+           
             
             
         </div><!-- row ending -->
@@ -393,6 +395,7 @@
     <script src="<?php echo base_url('site_assos/js/bootstrap.min.js'); ?>"></script> 
     <script src="<?php echo base_url('site_assos/js/main.js'); ?>"></script> 
     <script src="<?php echo base_url('site_assos/lightbox2-2.11.3/dist/js/lightbox.js'); ?>"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <script>
       lightbox.option({
         'resizeDuration': 200,
