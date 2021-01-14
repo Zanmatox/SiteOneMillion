@@ -14,9 +14,9 @@
         <form class="" action="<?php echo base_url('/Login') ?>" method="post">
 
             <p>Email</p>
-            <input type="email" class="form-control" name="email" id="email" value="">
+            <input type="email" class="form-control" name="email" id="email" value="" placeholder="Entrez votre email">
             <p>Mot de passe</p>
-            <input type="password" class="form-control" name="mdp" id="mdp" value="">
+            <input type="password" class="form-control" name="mdp" id="mdp" value="" placeholder="Entrez votre mot de passe">
 
             <?php if (isset($validation)): ?>
             <div class="col-12">

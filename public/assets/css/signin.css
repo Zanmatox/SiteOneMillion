@@ -8,7 +8,7 @@ body{
 }
 .signinbox{
     width: 320px;
-    height: 570px;
+    height: 620px;
     background: rgb(63, 62, 62);
     color: #fff;
     top: 50%;
@@ -46,7 +46,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.signinbox input[type="text"], input[type="email"]
+.signinbox input[type="text"], input[type="email"], input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
