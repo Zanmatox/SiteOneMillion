@@ -2,8 +2,16 @@
 
 class Achat extends BaseController
 {
+    private $session;
+
+    public function __construct()
+    {
+        $this->session = session();
+    }
+
         function index()
         {
+            $this->session->set( "DemarrageSession", true);
             echo view('templates/header_view');
             echo view('emplacementpixel_view');
             echo view('templates/footer_view');
