@@ -1,11 +1,20 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\UserModel;
 
 class Infos extends BaseController
 {
-	function index()
-	{
+	private $session;
+
+    public function __construct()
+    {
+        $this->session = session();
+    }
+
+    function index()
+    {
+        $this->session->set( "DemarrageSession", true);
         $data = [];
 
         helper(['url']);

@@ -4,8 +4,16 @@ namespace App\Controllers;
 
 class OneMillionEuros extends BaseController
 {
-	function index()
-	{
+	private $session;
+
+    public function __construct()
+    {
+        $this->session = session();
+    }
+
+    function index()
+    {
+        $this->session->set( "DemarrageSession", true);
         echo view('templates/header_view');
         echo view('accueil');
         echo view('templates/footer_view');
