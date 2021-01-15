@@ -6,7 +6,8 @@
         <form>
             <br>
             <p>Veuillez entrer l'adresse mail utilisée lors de la création du compte</p>
-            <input type="email" name="email" placeholder="Entrez votre email"class='form-control'>
+            <input type="email" name="email" placeholder="Entrez votre email" class='form-control'>
+            
             <?php
             if(isset($validation)): ?>
             <div class="alert alert-danger">
@@ -14,8 +15,7 @@
             </div>
             <?php endif;?>
 <div class='form-group'>
-<a href="<?php echo base_url("/login/mdpoublie")?>">Mot de passe oublié?</a>
-
+<input type="submit" name="login" value="login">
         
         <!--<div class="center">
             <input type="checkbox" id="click">
@@ -33,7 +33,5 @@
         </div>
         </form> 
     </div>
-
-
 
 
