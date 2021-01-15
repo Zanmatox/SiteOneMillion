@@ -9,7 +9,6 @@
 </head>
 <body-->
     <header id="showcase">
-    <br>
         <h1>One Million Euros</h1>
         <p>Projet de fin d'année de la formation CDA 2020/2021</p>
         <!--a href="#" class="button">Projet OME</a>
@@ -26,9 +25,9 @@
                         <h2 class="tm-text-primary mb-4">Projet One Million Euros</h2>
                         <p class="mb-4 tm-intro-text">
                         Le but de ce site web est de vendre tous les pixels afin de récolter un million d'euros a l'image du <br> <strong>"The Million Dollar Homepage"</strong></p>
-                        <img class="tm-mf" src="./public/assets/img/homepage.png" >
+                        <img class="" src="./public/assets/img/homepage.png" >
                         <div class="tm-continue">
-                            <a href="<?php echo base_url("/ompage")?>" class="button">En savoir plus</a>
+                            <a href="<?php echo base_url("/ompage")?>" target="_blank" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </div>
@@ -44,11 +43,12 @@
                         Les revenus récupérés par ce projet seront reverser aux oeuvres caritatives micro fermes<br>
                             
                         <div class="tm-continue">
-                            <a href="<?php echo base_url("/assospage")?>" class="button2">En savoir plus</a>
+                            <a href="<?php echo base_url("/assospage")?>" target="_blank" class="button2">En savoir plus</a>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </header>
 <!--/body>
