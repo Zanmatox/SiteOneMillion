@@ -77,6 +77,8 @@
                     </div>
                 </div>
 
+                <img src="<?php echo base_url('site_assos/img/projet.JPG'); ?>" >
+
             </div><!-- first row -->
             
             <div class="row tm-content-box"><!-- second row -->
@@ -216,6 +218,14 @@
                       <a href= "<?php echo base_url('site_assos/img/galerie8.JPG'); ?>" data-lightbox="img">
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie8.JPG'); ?>" alt="Image 8" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Repeated <span>Image Spot</span></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href= "<?php echo base_url('site_assos/img/projet.JPG'); ?>" data-lightbox="img">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="<?php echo base_url('site_assos/img/projet.JPG'); ?>" class="img-fluid">
                           <figcaption>
                             <h2><i>Repeated <span>Image Spot</span></i></h2>
                           </figcaption>
