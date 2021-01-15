@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="<?php echo base_url('site_assos/css/bootstrap.min.css'); ?>" />
     <link rel="stylesheet" href="<?php echo base_url('site_assos/css/tooplate-infinite-loop.css'); ?>" />
     <link rel="stylesheet" href="<?php echo base_url('site_assos/css/style.css'); ?>">
-    
-    <link href="<?php echo base_url('site_assos/lightbox2-2.11.3/dist/css/lightbox.css'); ?>" rel="stylesheet"/>
+    <link href="<?php echo base_url('site_assos/lightbox2-2.11.3/src/css/lightbox.css'); ?>" rel="stylesheet"/>
    
 
   </head>
@@ -32,9 +31,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#infinite">Acceuil</a>
-              </li>
+            
               <li class="nav-item">
                   <a class="nav-link tm-nav-link" href="#objectif">Objectif</a>
               </li>
@@ -42,7 +39,7 @@
                   <a class="nav-link tm-nav-link" href="#gallery">Galeries</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#gallery">A propos de nous</a>
+                  <a class="nav-link tm-nav-link" href="#team">A propos de nous</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link tm-nav-link" href="#contact">Contact</a>
@@ -76,7 +73,7 @@
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4 tm-section-title">Objectif</h2>
                         <p class="mb-4 tm-intro-text">
-                         Nous sommes des stagiaires en reconversion professionelle en Informatique. Nous réalisons ce projet pour les microsfermes.</p>
+                        Création de micro-fermes autonomes qui mutualisent les outils et les connaissances. Ce projet est particulièrement destinées à des personnes SDF ou en grande précarité sociale. Grâce à l'argent récolté, cela pourra permettre d'acheter des outils pour la gestion de la plantation ainsi pour l'achat du terrain agricole.</p>
                     </div>
                 </div>
 
@@ -95,13 +92,13 @@
                 </div>
                 
                 <div class="col-lg-1">
-                    <i class="far fa-3x fa-comment-alt text-center tm-icon"></i>
+                    <i class="far fa-3x fas fa-hands text-center tm-icon"></i>
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4">Autonomie</h2>
                         <p class="mb-4 tm-intro-text">
-                          Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> website for all images used in this template. Cras condimentum mi et sapien dignissim luctus.</p>
+                        Les bénévoles vont faire des activités qui vont leur permettre de retrouver une vie normal et grâce à leurs efforts, ils pourront récolter les fruits de leurs récoltes.</p>
                     </div>
                 </div>
 
@@ -109,29 +106,29 @@
             
             <div class="row tm-content-box"><!-- third row -->
         		<div class="col-lg-1">
-                    <i class="fas fa-3x fa-fingerprint text-center tm-icon"></i>
+                    <i class="fas fa-3x fas fa-seedling text-center tm-icon"></i>
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4">Apprentissage</h2>
                         <p class="mb-4 tm-intro-text">
-                      You have <strong>no</strong> authority to post this template as a ZIP file on your template collection websites. You can <strong>use</strong> this template for your commercial websites.</p>
+                        Les personnes vont apprendre à s'auto-suffire, être capable de créer ses propre plantation. Ils seront encadré par un professionnel.
+                        les personnes qui sont passionné par la construction, il existe un site qui permet de s'autoconstruire une roulotte.</p>
                           
                           <div class="tm-continue">
-                            <a href="#gallery" class="tm-intro-text tm-btn-primary">Learn More</a>
+                            <a href="http://www.maroulotte.net/001/index.php?Pos=00" class="tm-intro-text tm-btn-primary">En savoir plus</a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-lg-1">
-                    <i class="fas fa-3x fa-users text-center tm-icon"></i>
+                    <i class="fas fa-3x fas fa-dove text-center tm-icon"></i>
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
                       <h2 class="tm-text-primary mb-4">Anti-Gaspillage</h2>
                         <p class="mb-4 tm-intro-text">
-                      You can change <a href="https://fontawesome.com/icons?d=gallery">Font Awesome icons</a> by either <b><em>fas or far</em></b> in the HTML codes. For Examples:<br>
-                      <em>&lt;i class=&quot;fas fa-users&quot;&gt;&lt;i class=&quot;far fa-chart-bar&quot;&gt;</em> </p>
+                       L'association s'engage contre la surconsommation pour éviter des pertes d'alimentation en quantité monstreuse par les commerçants. Micro fermes produit l'essentiel pour éviter une surconsommation ! </p>
                           
                           <div class="tm-continue">
                             <a href="#gallery" class="tm-intro-text tm-btn-primary">Details</a>
@@ -150,8 +147,8 @@
         <div class="row">
           <div class="text-center col-12">
               <h2 class="tm-text-primary tm-section-title mb-4">Galeries</h2>
-              <p class="mx-auto tm-section-desc">
-                Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est urna, lobortis eu arcu a, aliquet tristique urna.
+              <p class="mb-4 tm-intro-text">
+                Petite galerie pour vous montrer les micros fermes !
               </p>
           </div>            
         </div>
@@ -164,7 +161,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie1.JPG'); ?>" alt="Image 1" class="img-fluid">
                           <figcaption>
-                            <h2><i>Physical Health <span>Exercise!</span></i></h2>
+                            <h2><i>Début des <span>plantations</span></i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -172,7 +169,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie2.JPG'); ?>" alt="Image 2" class="img-fluid">
                           <figcaption>
-                            <h2><i>Rain on Glass <span>Second Image</span></i></h2>
+                            <h2><i>Petite <span>Micro ferme</span></i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -180,7 +177,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie3.JPG'); ?>" alt="Image 3" class="img-fluid">
                           <figcaption>
-                            <h2><i><span>Sea View</span> Mega City</i></h2>
+                            <h2><i><span>Résultat d'une</span> plantation</i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -188,7 +185,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie4.JPG'); ?>" alt="Image 4" class="img-fluid">
                           <figcaption>
-                            <h2><i>Dream Girl <span>Thoughts</span></i></h2>
+                            <h2><i>Champs de <span>plantation</span></i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -196,7 +193,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie5.JPG'); ?>" alt="Image 5" class="img-fluid">
                           <figcaption>
-                            <h2><i><span>Workstation</span> Offices</i></h2>
+                            <h2><i><span>Autofloraison</span> en serre</i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -204,7 +201,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie6.JPG'); ?>" alt="Image 6" class="img-fluid">
                           <figcaption>
-                            <h2><i>Just Above <span>The City</span></i></h2>
+                            <h2><i>Micro ferme <span> près de la capitale</span></i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -212,7 +209,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie7.JPG'); ?>" alt="Image 7" class="img-fluid">
                           <figcaption>
-                            <h2><i>Another <span>Exercise Time</span></i></h2>
+                            <h2><i>Production en <span>grande quantité</span></i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -235,7 +232,9 @@
 <!--Meet the team-->
       <section id="team" class="tm-section-pad-top">
         <div class="wrapper">
-          <h2 class="tm-text-primary mb-4 tm-section-title">Notre équipe</h2>
+          <h2 class="tm-text-primary mb-4 tm-section-title">A propos de nous</h2>
+          <p>Nous sommes des stagiaires en reconversion professionelle en Informatique. Nous réalisons ce projet pour les microsfermes.</p>
+           
           <div class="our_team">
               <div class="team_member">
                 <div class="member_img">
@@ -248,7 +247,7 @@
                 </div>
                 <h3>Antoine LENOBLE</h3>
                 <span>CEO</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+                <p>Responsable du projet.</p>
               </div>
               <div class="team_member">
                 <div class="member_img">
@@ -260,8 +259,8 @@
                   </div>
                 </div>
                 <h3>Kurunchi CHANDRA</h3>
-                <span>Designer web</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+                <span>Développeur web</span>
+                <p>Création des deux sites (One Million Euros & Les microfermes).</p>
             </div>
               <div class="team_member">
                 <div class="member_img">
@@ -300,7 +299,7 @@
                 </div>
                 <h3>Nicolas AJINCA</h3>
                 <span>Développeur web</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+                <p> Design et fonctionnement de la partie d'achat des pixels</p>
               </div>  
 
               <div class="team_member">
@@ -331,18 +330,19 @@
         <div class="row" style="background-color:rgba(0,0,0,0.7); border-radius:25px;padding:25px;">
             
             <div class="text-center col-12">
-                <h2 class="tm-section-title mb-4">Contact Us</h2>
+                <h2 class="tm-section-title mb-4">Contactez nous !</h2>
                 <p class="mb-5">
-                  Proin enim orci, tincidunt quis suscipit in, placerat nec est. Vestibulum posuere faucibus posuere. Quisque aliquam velit eget leo blandit egestas. Nulla id posuere felis, quis tristique nulla.
+                  Vous avez des questions ? Envoyez nous un message, nous vous répondrons dans les 24h !
                 </p><br>
             </div>
             
             <div class="col-sm-12 col-md-6">
             <form method="post" action="<?php echo base_url('ContactAssosController/form') ?>">
-                <input id="name" name="Nom" type="text" placeholder="Your Name" class="tm-input" required />
-                <input id="email" name="Email" type="email" placeholder="Your Email" class="tm-input" required />
+                <input id="name" name="Nom" type="text" placeholder="Nom" class="tm-input" required />
+                <input id="email" name="Email" type="email" placeholder="Email" class="tm-input" required />
                 <textarea id="message" name="Message" rows="8" placeholder="Message" class="tm-input" required></textarea>
                 <button type="submit" class="btn tm-btn-submit">Envoyer</button>
+                
               </form>
             </div>
             
@@ -355,9 +355,9 @@
                   </div>
                   
                   <div class="contact-item">
-                    <a rel="nofollow" href="https://www.google.com/maps" class="item-link">
+                    <a rel="nofollow" href="https://www.google.com/maps/d/viewer?mid=1fy6Fta6qnNkzLroBSTNCggzIVXY&ll=47.1990930955535%2C2.01160292922657&z=7" class="item-link">
                         <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
-                        <span class="mb-0">Notre Location</span>
+                        <span class="mb-0">Localisations des Micro fermes</span>
                     </a>              
                   </div>
                   
@@ -394,8 +394,8 @@
     <script src="<?php echo base_url('site_assos/js/jquery.singlePageNav.min.js'); ?>"></script>     
     <script src="<?php echo base_url('site_assos/js/bootstrap.min.js'); ?>"></script> 
     <script src="<?php echo base_url('site_assos/js/main.js'); ?>"></script> 
-    <script src="<?php echo base_url('site_assos/lightbox2-2.11.3/dist/js/lightbox.js'); ?>"></script>
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="<?php echo base_url('site_assos/lightbox2-2.11.3/src/js/lightbox.js'); ?>"></script>
+   
     <script>
       lightbox.option({
         'resizeDuration': 200,
