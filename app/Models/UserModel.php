@@ -39,5 +39,18 @@ class UserModel extends Model
             }
 
         }
-
+    
+        public function updatedAt($id){
+            $builder=$this->db->table('client');
+            $builder->where('id',$id);
+            $builder->update(['modifie_le'=>date('Y-m-d h:i:s')]);
+            if($this->db->affectedRows()==1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 }

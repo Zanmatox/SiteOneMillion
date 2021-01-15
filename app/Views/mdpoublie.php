@@ -6,8 +6,18 @@
         <form>
             <br>
             <p>Veuillez entrer l'adresse mail utilisée lors de la création du compte</p>
-            <input type="email" name="" placeholder="Entrez votre email">
-        <div class="center">
+            <input type="email" name="email" placeholder="Entrez votre email" class='form-control'>
+            
+            <?php
+            if(isset($validation)): ?>
+            <div class="alert alert-danger">
+            <?=$validation->listErrors()?>
+            </div>
+            <?php endif;?>
+<div class='form-group'>
+<input type="submit" name="login" value="login">
+        
+        <!--<div class="center">
             <input type="checkbox" id="click">
             <label for="click" class="Oui">Entrer</label>
             <div class="content">
@@ -18,12 +28,10 @@
                 <label for="click" class="fas fa-check"></label>
                 <p>Un email vous a été envoyer contenant votre mot de passe</p>
                 <div class="line"></div>
-                <label for="click" class="close-btn">Fermer</label>
+                <label for="click" class="close-btn">Fermer</label>-->
             </div>
         </div>
         </form> 
     </div>
-
-
 
 

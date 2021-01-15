@@ -128,8 +128,63 @@ class Login extends BaseController
     }
 
     function mdpoublie(){
+        $data=[];
+        if($this->request->getMethod()=='post'){
+            $rules=[
+                'email'=>[
+                'label'=>'Email',
+                'rules'=>'required|valid_email',
+                'errors'=>[
+                    'required'=>'{field} field required',
+                    'valid_email' =>'valid{field} required'
+                    ]
+                ],
+            ];
+            if($this->validate($rules)){
+                $userMail=$this->request->getVar('email',FILTER_SANITIZE_EMAIL);
+                $userData=$this->UserModel->VerifyEmail($userMail);
+                if(!empty($userData)){
+                    if ($this->UserModel->updatedAt($userData['id'])){
+                        $to = $userMail;
+                        $subject = 'Lien de reinitialisation de mot de passe';
+                        $token = $userData['id'];
+                        $message = 'Bonjour'.$userData['nom'].'<br><br>'
+                        .'Votre demande de réinitialisation a été prise en compte. <br><br>.
+                        .<a href="'.base_url().'/login/reset_mdp/'.$token.'">Cliquez</a>';
+                        $userMail=\Config\Services::email();
+                        $userMail->setTo($to);
+                        $userMail->setFrom('onemillionseuros@gmail.com','Projet1Million');
+                        $userMail->setSubject($subject);
+                        $userMail->setMessage($message);
+                        if($userMail->send())
+                        {
+                            session()->setTempdata('sucess','Lien de réinitialisation envoyé');
+                            return redirect()->to(current_url());
+                        }
+                        else
+                        {
+                            $data=$userMail->printDebugger(['headers']);
+                            print_r($data);
+                        }
+                    }
+                    else{
+                        $this->session->setTempdata('error','Impossible de metre a jour',3);
+                        return redirect()->to(current_url());
+                    }
+                }
+                else{
+                    $this->session->setTempdata('error','Votre email est inexistant dans notre bdd');
+                    return redirect()->to(current_url());
+                }
+            }
+            else{
+                $data['valiadtion']=$this->validator;
+            }
+
+        }
+
         echo view('templates/header_view');
-        echo view('mdpoublie');
+        echo view('mdpoublie',$data);
         echo view('templates/footer_view');
     }
 
