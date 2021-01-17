@@ -3,7 +3,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <div class="box">
         <h1>Renvois de mot de passe</h1>
-        <form>
+        <form action="<?php echo base_url('/Login/mdpoublie') ?>" class="form-group" method="post">
             <br>
             <p>Veuillez entrer l'adresse mail utilisée lors de la création du compte</p>
             <input type="email" name="email" placeholder="Entrez votre email" class='form-control'>
@@ -14,6 +14,7 @@
             <?=$validation->listErrors()?>
             </div>
             <?php endif;?>
+
 <div class='form-group'>
         <div class="center">
             <input type="checkbox" id="click">

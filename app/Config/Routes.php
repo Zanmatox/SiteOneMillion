@@ -39,6 +39,7 @@ $routes->get('/mdpoublie', 'Login::mdpoublie');
 $routes->get('logout', 'Login::logout');
 $routes->get('/emplacementpixel_view','Ajoutimgdspxl::emplacementpixel_view');
 $routes->get('/ajoutimagedanspixel','Achat::ajoutimagedanspixel');
+$routes->match(['get','post'],'mdpoublie', 'Login::mdpoublie', ['filter' => 'noauth']);
 
 /**
  * --------------------------------------------------------------------
