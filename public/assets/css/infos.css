@@ -2,7 +2,39 @@
 
 /* Infomartion */
 
-#informations {
+body{
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.informations{
+  width: 520px;
+  height: 660px;
+  background: rgb(63, 62, 62);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+.informations input[type="text"], input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* #informations {
   width: 320px;
   height: 420px;
   
@@ -10,30 +42,33 @@
   left: 50%;
   position: absolute;
   padding: 60px 50px;
-}
+} */
 
-#informations label{
+.informations label{
   margin: 0;
   padding: 0;
   font-weight: bold;
 }
 
-#informations input{
-  margin-bottom: 10px;
+.informations input{
+  margin-bottom: 20px;
   width: 100%;
 }
 
-#informations button{
+.informations button{
   border: none;
   outline: none;
   height: 40px;
   background: url(../img/orange.jpg);
   border-radius: 20px;
+  font-size: 18px;
   color: #fff;
-  
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 110px;
 }
 
-#informations button:hover {
+.informations button:hover {
   cursor: pointer;
   background: #ffc107;
   color: #000;
