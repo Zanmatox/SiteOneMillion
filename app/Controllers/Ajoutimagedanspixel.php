@@ -2,7 +2,7 @@
 
 class AchatImageDansPixel extends BaseController
 {
-        function index()
+        /*function index()
         {
             echo view('templates/header_view');
             echo view('ajoutimagedanspixel_view');
@@ -28,7 +28,7 @@ class AchatImageDansPixel extends BaseController
             echo view('templates/header_view');
             echo view('emplacementpixel_view'); 
             echo view('templates/footer_view');
-        }
+        }*/
 
         
 	//--------------------------------------------------------------------

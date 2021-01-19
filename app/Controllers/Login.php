@@ -20,19 +20,19 @@ class Login extends BaseController
         $data 	= [];
         $data["validation"] = null;
         
-        if ($this->request->getMethod() == "post") {
+        if ($this->request->getMethod() == "post") 
+        {
             $rules 	= [
                 'email' => 'required|valid_email',
                 'mdp' => 'required',
             ];
                 
-            if ($this->validate($rules)) {
+            if ($this->validate($rules)) 
+            {
                 $email	= $this->request->getVar("email");
                 $password = $this->request->getVar("mdp");
 
                 $userData = $this->UserModel->VerifyEmail($email);
-                // var_dump($userData);
-                // die();
 
                 if ($userData) {
                     if (password_verify($password, $userData['mdp'])) {
@@ -42,7 +42,6 @@ class Login extends BaseController
                         $this->session->set("utilisateurConnecte_email", $userData["email"]);
                         $this->session->set("utilisateurConnecte_nom", $userData["nom"]);
                         $this->session->set("utilisateurConnecte_id", $userData["id"]);
-
 
                         return header("refresh:2;url=". base_url(''));
                     } else {
@@ -72,7 +71,8 @@ class Login extends BaseController
         $data 	= [];
         $data["validation"] = null;
         
-        if ($this->request->getMethod() == "post") {
+        if ($this->request->getMethod() == "post") 
+        {
             $rules 	= [
                 'nom' => 'required|min_length[3]|max_length[15]',
                 'email' => 'required|valid_email|is_unique[client.email]',
@@ -80,11 +80,11 @@ class Login extends BaseController
                 'password_confirm' => 'matches[mdp]'
             ];
                 
-            if ($this->validate($rules)) {
+            if ($this->validate($rules)) 
+            {
                 $userData = [
-
-                        'nom'     		=> $this->request->getVar("nom", FILTER_SANITIZE_STRING),
-                        'email'    		=> $this->request->getVar("email"),
+                        'nom'     	=> $this->request->getVar("nom", FILTER_SANITIZE_STRING),
+                        'email'    	=> $this->request->getVar("email"),
                         'mdp'   	=> password_hash($this->request->getVar("mdp"), PASSWORD_DEFAULT)
                     ];
 

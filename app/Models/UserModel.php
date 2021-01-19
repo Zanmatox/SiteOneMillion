@@ -4,6 +4,9 @@ use CodeIgniter\Model;
 
 class UserModel extends Model 
 {
+    protected $table = 'client';
+    protected $allowedFields = ['id', 'nom', 'prenom', 'email', 'mdp', 'siret', 'modifie_le'];
+
     public function CreateUser($userData)
         {
 
@@ -25,7 +28,7 @@ class UserModel extends Model
         {
             $builder    = $this->db->table("client");
 
-            $builder->select('id,nom,email,mdp,siret,modifie_le');
+            $builder->select('id, nom, prenom, email, mdp, siret, modifie_le');
             $builder->where("email",$userMail);
             $result = $builder->get();
 
@@ -52,5 +55,24 @@ class UserModel extends Model
             {
                 return false;
             }
+        }
+
+        public function updateUserInfo($data, $id)
+        {
+
+            $builder    = $this->db->table("client");
+            $builder->select("id, nom, prenom, email, mdp, siret, modifie_le");
+            $builder->where("id",$id);
+            $builder->update($data);
+
+            if(    $this->db->affectedRows() > 0 )
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
         }
 }
