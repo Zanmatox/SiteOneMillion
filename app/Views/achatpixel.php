@@ -23,7 +23,7 @@
             <h3>rectangle en longueur</h3>
             <!-- Modifier le path pour la mise en commun -->
             <img class="" src="/mywork/SiteOneMillion/public/assets/img/achatpixel/rectanglelong.jpg">
-            <h3>10x15 pixels</h3>
+            <h3>10x20 pixels</h3>
         </div>
         <input type="radio" id="rectanglelong" name="format" value="rectanglelong" <?php echo ($format == 'rectlong') ? 'checked' : '' ?>>
     </div>
@@ -32,7 +32,7 @@
             <h3>rectangle en hauteur</h3>
             <!-- Modifier le path pour la mise en commun -->
             <img class="" src="/mywork/SiteOneMillion/public/assets/img/achatpixel/rectanglehaut.jpg">
-            <h3>15x10 pixels</h3>
+            <h3>20x10 pixels</h3>
         </div>
         <input type="radio" id="rectanglehaut" name="format" value="rectanglehaut" <?php echo ($format == 'recthaut') ? 'checked' : '' ?>>
     </div>
