@@ -61,11 +61,7 @@
 							</tr>
 								<!-- end actual page content -->
 							<tr>
-<<<<<<< HEAD
-								<td id="note" height="24" colspan="3" style="position: absolute; top: 1100px; left: 0px; border: none">
-=======
 								<td id="note" height="24" colspan="3" style="position: absolute; top: 1000px; left: 0px; border: none">
->>>>>>> dev
 									One Million euro Homepage © 2021 CDA. 
 									Tout droits réservés. 
 									Nous ne sommes pas responsables du contenu des sites externes. 
@@ -77,12 +73,6 @@
 					</table>
 				</center>
 			</div>
-<<<<<<< HEAD
-		</body>
-		
-
-
-=======
 		</div>
 		<br>
 		<br>
@@ -91,5 +81,4 @@
 		<br>
 		<br>
 		<br>
->>>>>>> dev
 		
