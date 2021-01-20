@@ -26,11 +26,11 @@
 										<map name="Map" id="Map">
 											<?php
 											/*requete demande total clients avec coordimage siteinternet titreclient
-											en fonction du nombre total client on crée la variable nbclient*/
+											en fonction du nombre total client on crée la variable nbclient
 											$nbrclient = mysql_query("SELECT COUNT(idClient), coordx1, coordy1, coordx2, coordy2, siteInternet, titre FROM clients, pixel, data;")
 
 											
-											/*for (i=0;i < $nbrclient.count;i++)
+											for (i=0;i < $nbrclient.count;i++)
 											{
 												
 											'	<area onmouseover="d(this)" 
@@ -50,8 +50,8 @@
 										<img src="./public/assets/img/image-map(1).png" width="2000" height="2000" border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
 										<img src="./public/assets/img/neg.gif" name="neg" id="neg" width="1000" height="1000" style="position:absolute;top:0px;left:0px;display:none">
 											<?php
-											$nbrimgmap = mysql_query("SELECT COUNT(idimgclient), nomImg FROM imageclient ")
-											//for (i=0;i < $nbrimgmap.count;i++)
+											/*$nbrimgmap = mysql_query("SELECT COUNT(idimgclient), nomImg FROM imageclient ")
+											for (i=0;i < $nbrimgmap.count;i++)*/
 											?>
 									</div>
 								</td>
