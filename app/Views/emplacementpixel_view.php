@@ -1,4 +1,4 @@
-		<div>
+<div>
 			<div id="d" style="position: absolute; z-index: 99; left: 103px; top: 962px; border: 1px solid rgb(255, 0, 0); display: none; background: rgb(255, 255, 255);">
 				<span id="xcoord">
 					These pixels are not available, sorry (1,
