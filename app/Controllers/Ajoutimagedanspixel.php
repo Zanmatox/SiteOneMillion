@@ -1,7 +1,8 @@
 <?php namespace App\Controllers;
 
-class Achat extends BaseController
+class AjoutImageDansPixel extends BaseController
 {
+    private $session;
         /*function index()
         {
             echo view('templates/header_view');
