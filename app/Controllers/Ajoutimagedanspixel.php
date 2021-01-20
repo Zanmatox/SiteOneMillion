@@ -3,35 +3,23 @@
 class AjoutImageDansPixel extends BaseController
 {
     private $session;
-        /*function index()
-        {
-            echo view('templates/header_view');
-            echo view('ajoutimagedanspixel');
-            echo view('templates/footer_view');
-        }
-        
-        function insert()
-        {
-            echo view('templates/header_view');
-            echo view('emplacementpixel_view');
-            echo view('templates/footer_view');
-        }
 
-        function infos()
-        {
-            echo view('templates/header_view');
-            echo view('ajoutimagedanspixel'); 
-            echo view('templates/footer_view');
-        }
+    public function __construct()
+    {
+        $this->session = session();
+    }
 
-        function confirm()
-        {
-            echo view('templates/header_view');
-            echo view('ajoutimagedanspixel'); //à modifier avec le bon fichier
-            echo view('templates/footer_view');
-        }*/
+    function index()
+    {
+        $this->session->set( "DemarrageSession", true);
+    }
+    function Addimgdspxl()
+    {
+        //<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="0,0,10,10" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">
+		requete sql = '<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="{$x1},{$y1},{$x2},{$y2}(db)" href="{$siteinternet}(db)" title="$titre"'								
+    }
 
         
-	//--------------------------------------------------------------------
+	
 
 }

@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="../public/assets/css/achatpixel.css">
 
 
-
+<br>
+<br>
 <form action="" method="POST">
 <div class="container choixpixel  ">
     <div class="format1" value="carré">
