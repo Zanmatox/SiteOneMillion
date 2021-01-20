@@ -42,13 +42,15 @@
 												
 											}*/
 											?>
-											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="0,0,130,130" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">
+											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="0,0,10,1000" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">
+											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="131,0,530,400" href="https://www.pole-emploi.fr/accueil/" title="pole-emploi.fr, trouver un emploi">
 											
 										</map>
 										
-										<img src="./public/assets/img/imgclient/afpa.png" width="130" height="130" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
-										<img src="./public/assets/img/image-map(1).png" width="2000" height="2000" border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
-										<img src="./public/assets/img/neg.gif" name="neg" id="neg" width="1000" height="1000" style="position:absolute;top:0px;left:0px;display:none">
+										<img src="./public/assets/img/imgclient/afpa.png" width="" height="" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
+										<img src="./public/assets/img/imgclient/pole_emploi.png" width="" height="" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 131px; border: none">
+										<!--<img src="./public/assets/img/image-map(1).png" width="2000" height="2000" border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
+										<img src="./public/assets/img/neg.gif" name="neg" id="neg" width="1000" height="1000" style="position:absolute;top:0px;left:0px;display:none">-->
 											<?php
 											/*$nbrimgmap = mysql_query("SELECT COUNT(idimgclient), nomImg FROM imageclient ")
 											for (i=0;i < $nbrimgmap.count;i++)*/
