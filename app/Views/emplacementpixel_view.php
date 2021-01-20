@@ -1,12 +1,13 @@
-		<div>
+<div>
 			<div id="d" style="position: absolute; z-index: 99; left: 103px; top: 962px; border: 1px solid rgb(255, 0, 0); display: none; background: rgb(255, 255, 255);">
 				<span id="xcoord">
-					Ces pixels ne sont pas disponibles, désolé (1,
+					These pixels are not available, sorry (1,
 				</span>
 				<span id="ycoord">
 					85)
 				</span>
 			</div>
+
 
 			<div>
 				<center>
@@ -32,7 +33,12 @@
 											/*for (i=0;i < $nbrclient.count;i++)
 											{
 												
-											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="'"{$x1}[i]"',' "{$y1}[i]"',' "{$x2}[i]"',' "{$y2}[i]"'" href="'"{$siteinternet}[i]"'" title="'"{$titre}[i]"'";
+											'	<area onmouseover="d(this)" 
+												onmouseout="e(this)" 
+												shape="rect" 
+												//coords="{$x1}[i]","' {$y1}[i]'","' {$x2}[i]'","' {$y2}[i]'" 
+												href="'{$siteinternet}[i]'" 
+												title="'{$titre}[i]'">';
 												
 											}*/
 											?>
