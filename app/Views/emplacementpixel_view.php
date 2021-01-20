@@ -11,25 +11,48 @@
 
 			<div>
 				<center>
-					<table style="position:relative; LEFT: 0; TOP: 0; z-index: 0;" border="0" bgcolor="#e1e1e1" cellpadding="0" cellspacing="0" width="1002">
-						<tbody >							
+					<table style="position:relative; LEFT: 0; TOP: 100px; BOTTOM: 100px; z-index: 0;" border="0" bgcolor="#e1e1e1" cellpadding="0" cellspacing="0" width="1002">
+						<tbody>							
 							<tr>
-								<td id="tablebreak" width="1">
+								<td id="tablebreak" width="1" >
 
 								</td>
-								<td width="1000" height="1000" background="./public/assets/img/bg10.gif" valign="top" style="position: absolute; top: 100px; left: 0px; border: none">
-									<div id="f" style="display:none;font-size:0px;margin:0px;padding:0px;border: #0000ff 2px solid;position:absolute;width:1px;height:1px;z-index:2;">
+								<td width="1000" height="1000" background="./public/assets/img/bg10.gif" valign="top">
+									<div id="f" style="display:none;font-size:0px;margin:0px;padding:0px;border: #0000ff 2px solid;position: absolute; top: 100px ;width:1px;height:1px;z-index:2;">
 									
 									</div>
 
-									<div id="pixels" style="z-index:1">
+									<div id="pixels" style="z-index:1; position: absolute; top: 0px; left: 0px; border: none">
 										<map name="Map" id="Map">
-											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="0,1000,0,1000" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">
+											<?php
+											/*requete demande total clients avec coordimage siteinternet titreclient
+											en fonction du nombre total client on crée la variable nbclient*/
+											$nbrclient = mysql_query("SELECT COUNT(idClient), coordx1, coordy1, coordx2, coordy2, siteInternet, titre FROM clients, pixel, data;")
+
+											$nbrmapclient = $nbrclient;
+											for (i=0;i < $nbrclient.count;i++)
+											{
+												
+											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="'"{$x1}[i]"',' "{$y1}[i]"',' "{$x2}[i]"',' "{$y2}[i]"'" href="'"{$siteinternet}[i]"'" title="'"{$titre}[i]"'";
+												
+											}
+											?>
+											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="0,0,10,10" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">
 											
 										</map>
+<<<<<<< HEAD
 										<img src="public/assets/img/image-map.png" width="1000" height="1000" _border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
 										<img src="public/assets/img/image-map(1).png" width="2000" height="2000" _border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
 										<img src="public/assets/img/neg.gif" name="neg" id="neg" width="1000" height="1000" _border="0" style="position:absolute;top:0px;left:0px;display:none">
+=======
+										<img src="./public/assets/img/image-map.png" width="1000" height="1000" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
+										<img src="./public/assets/img/image-map(1).png" width="2000" height="2000" border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
+										<img src="./public/assets/img/neg.gif" name="neg" id="neg" width="1000" height="1000" style="position:absolute;top:0px;left:0px;display:none">
+											<?php
+											$nbrimgmap = mysql_query("SELECT COUNT(idimgclient), nomImg FROM imageclient ")
+											for (i=0;i < $nbrimgmap.count;i++)
+											?>
+>>>>>>> dev
 									</div>
 								</td>
 								<td id="tablebreak" width="1">
@@ -38,7 +61,11 @@
 							</tr>
 								<!-- end actual page content -->
 							<tr>
+<<<<<<< HEAD
 								<td id="note" height="24" colspan="3" style="position: absolute; top: 1100px; left: 0px; border: none">
+=======
+								<td id="note" height="24" colspan="3" style="position: absolute; top: 1000px; left: 0px; border: none">
+>>>>>>> dev
 									One Million euro Homepage © 2021 CDA. 
 									Tout droits réservés. 
 									Nous ne sommes pas responsables du contenu des sites externes. 
@@ -50,8 +77,19 @@
 					</table>
 				</center>
 			</div>
+<<<<<<< HEAD
 		</body>
 		
 
 
+=======
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+>>>>>>> dev
 		
