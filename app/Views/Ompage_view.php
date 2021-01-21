@@ -145,7 +145,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                             <div class="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
                                 <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">Présentation du site</h2>
 
-                                <p data-aos="fade-up" data-aos-delay="400">Nous avons créé ce site pour vendre les pixels aux entreprise pour afficher leur marques et publicités. Le but est de récolter assez d'argent et verser à une assosciation caritative Les microfermes.</p>
+                                <p data-aos="fade-up" data-aos-delay="400">Nous avons créé ce site pour vendre les pixels aux entreprises pour afficher leurs marques et publicités. Le but est de récolter assez d'argent et verser à une association caritative Les microfermes.</p>
                                 
                                 <a href="<?php echo base_url('Assospage'); ?>" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-target="#membershipForm">En savoir plus</a>
                                 <!-- <p data-aos="fade-up" data-aos-delay="500">If you have any question regarding <a rel="nofollow" href="https://www.tooplate.com/view/2119-gymso-fitness" target="_parent">Gymso Fitness HTML template</a>, you can <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">contact Tooplate</a> immediately. Thank you.</p> -->
@@ -532,7 +532,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                <div class="row">
 
                     <div class="ml-auto col-lg-4 col-md-5">
-                        <p class="copyright-text">Copyright &copy; 2020 1M€.
+                        <p class="copyright-text">Copyright &copy; 2021 1M€.
                         
                         <br>Design: <a>KB</a></p>
                     </div>
