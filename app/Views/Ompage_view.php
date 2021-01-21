@@ -494,7 +494,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                     <div class="ml-auto col-lg-5 col-md-6 col-12">
                         <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Contactez-nous</h2>
 
-                        <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
+                        <form action="<?php echo base_url('ContactController/form') ?>" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
                             <input type="text" class="form-control" name="Nom" placeholder="Nom">
 
                             <input type="email" class="form-control" name="Email" placeholder="Email">
@@ -567,7 +567,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
      </footer>
 
     <!-- Modal -->
-    <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+   <!-- <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
 
         <div class="modal-content">
@@ -581,10 +581,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
           </div>
 
           <div class="modal-body">
-            <form class="membership-form webform" role="form">
-                <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
+            <form method="post" class="membership-form webform" role="form" action="<?php echo base_url('ContactAssosController/form') ?>">
+                <input type="text" class="form-control" name="Nom" placeholder="John Doe">
 
-                <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
+                <input type="email" class="form-control" name="Email" placeholder="Johndoe@gmail.com">
 
                 <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
