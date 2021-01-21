@@ -485,7 +485,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                </div>
      </section>-->
  
-
+    <br><br>
      <!-- CONTACT -->
      <section class="contact section" id="contact">
           <div class="container">
