@@ -52,7 +52,7 @@
 										</map>
 										
 										<img src="./public/assets/img/imgclient/afpa.png" width="130" height="130" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 870px; border: none">
-										<img src="./public/assets/img/imgclient/pole_emploi.png" width="" height="" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
+										<img src="./public/assets/img/imgclient/pole_emploi.png" width="400" height="400" border="0" ismap="" usemap="#Map" style="position: absolute; top: 0px; left: 0px; border: none">
 										<img src="./public/assets/img/image-map(1).png" width="2000" height="2000" border="0" style="position: absolute; top: 0px; left: 0px; clip: rect(0px, 100px, 100px, 0px); border: black 2px solid; background: url(bg20.gif); display:none">
 										<img src="./public/assets/img/neg.gif" name="neg" id="neg" width="1000" height="1000" style="position:absolute;top:0px;left:0px;display:none">
 											<?php
