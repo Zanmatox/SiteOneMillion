@@ -46,8 +46,8 @@
 												}*/
 											}
 											?>
-											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="870,0,1000,130" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">;
-											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="0,0,400,400" href="https://www.pole-emploi.fr/accueil/" title="pole-emploi.fr, trouver un emploi">;
+											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="100,100,230,230" href="https://www.afpa.fr/" title="afpa.fr, centre de formation">;
+											<area onmouseover="d(this)" onmouseout="e(this)" shape="rect" coords="600,0,1000,400" href="https://www.pole-emploi.fr/accueil/" title="pole-emploi.fr, trouver un emploi">;
 											
 										</map>
 										

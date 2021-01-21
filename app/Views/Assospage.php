@@ -76,11 +76,17 @@
                         Création de micro-fermes autonomes qui mutualisent les outils et les connaissances. Ce projet est particulièrement destinées à des personnes SDF ou en grande précarité sociale. Grâce à l'argent récolté, cela pourra permettre d'acheter des outils pour la gestion de la plantation ainsi pour l'achat du terrain agricole.</p>
                     </div>
                 </div>
+<<<<<<< HEAD
 
                 <img src="<?php echo base_url('site_assos/img/projet.JPG'); ?>" >
 
+=======
+>>>>>>> dev
             </div><!-- first row -->
-            
+              <div style="width:100%; text-align:center;">
+                  <img src="<?php echo base_url('site_assos/img/projet.JPG'); ?>">
+              </div>
+
             <div class="row tm-content-box"><!-- second row -->
         		<div class="col-lg-1">
                     <i class="far fa-3x fas fa-hands-helping text-center tm-icon"></i>
@@ -270,7 +276,7 @@
                 </div>
                 <h3>Kurunchi CHANDRA</h3>
                 <span>Développeur web</span>
-                <p>Création des deux sites (One Million Euros & Les microfermes).</p>
+                <p>Création des deux sites (One Million Euros & Les microfermes)</p>
             </div>
               <div class="team_member">
                 <div class="member_img">
@@ -283,7 +289,7 @@
                 </div>
                 <h3>Chriss BELLAY</h3>
                 <span>Développeuse web</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+                <p>Design fonctionnement de la partie compte d'utilisateur</p>
             </div>
               <div class="team_member">
                 <div class="member_img">
@@ -296,7 +302,7 @@
                 </div>
                 <h3>Kevin CHEUNG</h3>
                 <span>Développeur web</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+                <p>Design page d'acceuil et fonctionnement de la partie compte d'utilisateur</p>
             </div>
               <div class="team_member">
                 <div class="member_img">
@@ -323,7 +329,7 @@
                 </div>
                 <h3>Alexandre FREIRE CARVALHO</h3>
                 <span>Développeur web</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+                <p>Design et fonctionnement de la partie d'achat des pixels</p>
               </div> 
           </div>
         </div>
