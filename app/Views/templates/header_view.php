@@ -29,7 +29,7 @@
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             </button>
-                            <a class="navbar-brand" href="/">One Million Euros</a>
+                            <a class="navbar-brand" href="<?php echo base_url("")?>">One Million Euros</a>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                         <?php if (isset($_SESSION['utilisateurConnecte_email'])): ?>
