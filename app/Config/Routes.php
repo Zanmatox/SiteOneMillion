@@ -35,7 +35,6 @@ $routes->get('/', 'OneMillionEuros::index');
 $routes->match(['get','post'],'infos', 'Infos::index',['filter' => 'auth']);
 $routes->get('/login', 'Login::index', ['filter' => 'noauth']);
 $routes->match(['get','post'],'signin', 'Login::signin', ['filter' => 'noauth']);
-$routes->get('/mdpoublie', 'Login::mdpoublie');
 $routes->get('logout', 'Login::logout');
 $routes->get('/emplacementpixel_view','Ajoutimgdspxl::emplacementpixel_view');
 $routes->get('/ajoutimagedanspixel','Achat::ajoutimagedanspixel');
