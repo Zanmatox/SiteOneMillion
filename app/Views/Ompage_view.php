@@ -145,7 +145,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                             <div class="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
                                 <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">Présentation du site</h2>
 
-                                <p data-aos="fade-up" data-aos-delay="400">Nous avons créé ce site pour vendre les pixels aux entreprise pour afficher leur marques et publicités. Le but est de récolter assez d'argent et verser à une assosciation caritative Les microfermes.</p>
+                                <p data-aos="fade-up" data-aos-delay="400">Nous avons créé ce site pour vendre les pixels aux entreprises pour afficher leurs marques et publicités. Le but est de récolter assez d'argent et verser à une association caritative Les microfermes.</p>
                                 
                                 <a href="<?php echo base_url('Assospage'); ?>" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-target="#membershipForm">En savoir plus</a>
                                 <!-- <p data-aos="fade-up" data-aos-delay="500">If you have any question regarding <a rel="nofollow" href="https://www.tooplate.com/view/2119-gymso-fitness" target="_parent">Gymso Fitness HTML template</a>, you can <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">contact Tooplate</a> immediately. Thank you.</p> -->
@@ -485,7 +485,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                </div>
      </section>-->
  
-
+    <br><br>
      <!-- CONTACT -->
      <section class="contact section" id="contact">
           <div class="container">
@@ -494,7 +494,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                     <div class="ml-auto col-lg-5 col-md-6 col-12">
                         <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Contactez-nous</h2>
 
-                        <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
+                        <form action="<?php echo base_url('ContactController/form') ?>" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
                             <input type="text" class="form-control" name="Nom" placeholder="Nom">
 
                             <input type="email" class="form-control" name="Email" placeholder="Email">
@@ -532,7 +532,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                <div class="row">
 
                     <div class="ml-auto col-lg-4 col-md-5">
-                        <p class="copyright-text">Copyright &copy; 2020 1M€.
+                        <p class="copyright-text">Copyright &copy; 2021 1M€.
                         
                         <br>Design: <a>KB</a></p>
                     </div>
@@ -567,7 +567,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
      </footer>
 
     <!-- Modal -->
-    <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+   <!-- <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
 
         <div class="modal-content">
@@ -581,10 +581,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
           </div>
 
           <div class="modal-body">
-            <form class="membership-form webform" role="form">
-                <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
+            <form method="post" class="membership-form webform" role="form" action="<?php echo base_url('ContactAssosController/form') ?>">
+                <input type="text" class="form-control" name="Nom" placeholder="John Doe">
 
-                <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
+                <input type="email" class="form-control" name="Email" placeholder="Johndoe@gmail.com">
 
                 <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 

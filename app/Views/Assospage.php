@@ -73,7 +73,7 @@
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4 tm-section-title">Objectif</h2>
                         <p class="mb-4 tm-intro-text">
-                        Création de micro-fermes autonomes qui mutualisent les outils et les connaissances. Ce projet est particulièrement destinées à des personnes SDF ou en grande précarité sociale. Grâce à l'argent récolté, cela pourra permettre d'acheter des outils pour la gestion de la plantation ainsi pour l'achat du terrain agricole.</p>
+                        Création de microfermes autonomes qui mutualisent les outils et les connaissances. Ce projet est particulièrement destinée à des personnes SDF ou en grande précarité sociale. Les fonds récoltés permettront d'acheter les terrains et des outils pour la gestion de la plantation.</p>
                     </div>
                 </div>
 <<<<<<< HEAD
@@ -95,7 +95,7 @@
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4">Solidarité</h2>
                         <p class="mb-4 tm-intro-text">
-                          Le but des microfermes est d'aider les personnes qui sont les plus démunié en les intégrant dans l'association</p>
+                          Le but des microfermes est d'aider les personnes qui sont les plus démunie en les intégrant au sein de l'association</p>
                     </div>
                 </div>
                 
@@ -120,8 +120,8 @@
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4">Apprentissage</h2>
                         <p class="mb-4 tm-intro-text">
-                        Les personnes vont apprendre à s'auto-suffire, être capable de créer ses propre plantation. Ils seront encadré par un professionnel.
-                        les personnes qui sont passionné par la construction, il existe un site qui permet de s'autoconstruire une roulotte.</p>
+                        Les personnes seront encadrées par un professionnel vont apprendre à s'auto-suffire, être capable de créer leurs propres plantations.
+                        Pour les passionnés par la construction, il existe un site qui permet de s'auto construire une roulotte.</p>
                           
                           <div class="tm-continue">
                             <a href="http://www.maroulotte.net/001/index.php?Pos=00" class="tm-intro-text tm-btn-primary">En savoir plus</a>
@@ -136,11 +136,11 @@
                     <div class="tm-intro-text-container">
                       <h2 class="tm-text-primary mb-4">Anti-Gaspillage</h2>
                         <p class="mb-4 tm-intro-text">
-                       L'association s'engage contre la surconsommation pour éviter des pertes d'alimentation en quantité monstreuse par les commerçants. Micro fermes produit l'essentiel pour éviter une surconsommation ! </p>
+                        L'association s'engage contre la surconsommation pour éviter des pertes d'alimentation en quantité monstrueuse par les commerçants. Microfermes produit l'essentiel pour éviter une surconsommation !</p>
                           
-                          <div class="tm-continue">
+                          <!--<div class="tm-continue">
                             <a href="#gallery" class="tm-intro-text tm-btn-primary">Details</a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
 
@@ -156,7 +156,7 @@
           <div class="text-center col-12">
               <h2 class="tm-text-primary tm-section-title mb-4">Galeries</h2>
               <p class="mb-4 tm-intro-text">
-                Petite galerie pour vous montrer les micros fermes !
+                Petite galerie pour vous montrer les microsfermes !
               </p>
           </div>            
         </div>
@@ -209,7 +209,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie6.JPG'); ?>" alt="Image 6" class="img-fluid">
                           <figcaption>
-                            <h2><i>Micro ferme <span> près de la capitale</span></i></h2>
+                            <h2><i>Microferme <span> près de la capitale</span></i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -225,7 +225,7 @@
                         <figure class="effect-honey tm-gallery-item">
                           <img src="<?php echo base_url('site_assos/img/galerie8.JPG'); ?>" alt="Image 8" class="img-fluid">
                           <figcaption>
-                            <h2><i>Repeated <span>Image Spot</span></i></h2>
+                            <h2><i>Petite  <span>vue</span></i></h2>
                           </figcaption>
                         </figure>
                       </a>
@@ -249,7 +249,7 @@
       <section id="team" class="tm-section-pad-top">
         <div class="wrapper">
           <h2 class="tm-text-primary mb-4 tm-section-title">A propos de nous</h2>
-          <p>Nous sommes des stagiaires en reconversion professionelle en Informatique. Nous réalisons ce projet pour les microsfermes.</p>
+          <p>Nous sommes en formation concepteur et developpeur d'application réalisant ce projet de fin d'année. Nous sommes une équipe de 6 développeurs.</p>
            
           <div class="our_team">
               <div class="team_member">
@@ -396,7 +396,7 @@
 
       	<footer class="text-center small tm-footer">
           <p class="mb-0">
-          Copyright &copy; 2020 Team 1M€
+          Copyright &copy; 2021 Team 1M€
           
           . <a rel="nofollow" href="https://www.tooplate.com" title="HTML templates">Designed by KB</a></p>
         </footer>

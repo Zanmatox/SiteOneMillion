@@ -15,7 +15,7 @@ body{
   height: 660px;
   background: rgb(63, 62, 62);
   color: #fff;
-  top: 50%;
+  top: 62%;
   left: 50%;
   position: absolute;
   transform: translate(-50%,-50%);
@@ -33,16 +33,6 @@ body{
     color: #fff;
     font-size: 16px;
 }
-
-/* #informations {
-  width: 320px;
-  height: 420px;
-  
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  padding: 60px 50px;
-} */
 
 .informations label{
   margin: 0;
