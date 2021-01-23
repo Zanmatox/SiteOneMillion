@@ -180,4 +180,67 @@ class Login extends BaseController
         session()->destroy();
         return redirect()->to(base_url(''));
     }
+
+    public function deleteacc()
+    {
+        $data 	= [];
+        $data["validation"] = null;
+        
+        if ($this->request->getMethod() == "post") {
+            $rules 	= [
+                'email'=>[
+                    'label'=>'Email',
+                    'rules'=>'required|valid_email',
+                    'errors'=>[
+                        'required'=>'{field} field required',
+                        'valid_email' =>'valid{field} required',
+                        'mdp' => 'required',
+                        ]
+                    ],
+            ];
+                
+            if ($this->validate($rules)) {
+                $email	= $this->request->getVar('email', FILTER_SANITIZE_EMAIL);
+                $password = $this->request->getVar("mdp");
+
+                $userData = $this->UserModel->VerifyEmail($email);
+
+                if ($userData) {
+                    if (password_verify($password, $userData['mdp'])) {
+                        //$this->UserModel->deleteacc($userData['id']);
+
+
+
+
+                        $this->session->setTempdata("success", "Suppression réussie! Redirection automatique dans 2 secondes", 2);
+
+                        session()->destroy();
+                        return redirect()->to(base_url('Login/deleteaccconf'));
+                    } else {
+                        $this->session->setTempdata("error", "Mot de passe incorrect..redirection automatique dans 2 secondes", 2);
+                        echo("<div style = '; text-align: center;color: red;font-weight:bold'>".  $_SESSION["error"] ."<div/>");
+
+                        return header("refresh:2;url=".  current_url());
+                    }
+                } else {
+                    $this->session->setTempdata("error", "l'adresse mail saisie n'a pas été reconnue..redirection automatique dans 2 secondes", 2);
+                    echo("<div style = '; text-align: center;color: red;font-weight:bold'>".  $_SESSION["error"] ."<div/>");
+
+                    return header("refresh:2;url=".  current_url() ." .");
+                }
+            } else {
+                $data["validation"] = $this->validator;
+            }
+        }
+        
+        echo view('templates/header_view');
+        echo view('deleteacc', $data);
+        echo view('templates/footer_view');
+    }
+    
+    public function deleteaccconf(){
+        echo view('templates/header_view');
+        echo view('deleteaccconf');
+        echo view('templates/footer_view');
+    }
 }

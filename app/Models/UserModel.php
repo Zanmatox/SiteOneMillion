@@ -24,6 +24,13 @@ class UserModel extends Model
 
         }
 
+    public function deleteacc($userData){
+            $this->db->table("client");
+            $this->db->where("id",$id);
+            $this->db->delete("users");
+            return $this->db->affected_rows();
+        }
+
     public function VerifyEmail($userMail)
         {
             $builder    = $this->db->table("client");
@@ -75,4 +82,6 @@ class UserModel extends Model
             }
 
         }
+
+        
 }

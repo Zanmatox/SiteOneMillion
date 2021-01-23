@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     <?php endif; ?>
-
+                    <a href="<?php echo base_url("/Login/deleteacc")?>">Suppression du compte</a>
                 </div>
                 <div class="form-group">
                     <button type="submit" id="enregistrer" name="enregistrer" class="btn btn-primary">Enregistrer</button>
