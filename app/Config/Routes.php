@@ -32,12 +32,14 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'OneMillionEuros::index');
 
-$routes->get('/infos', 'OneMillionEuros::infos');
-$routes->get('/login', 'Login');
-$routes->get('/signin', 'Login::signin');
-$routes->get('/mdpoublie', 'Login::mdpoublie');
+$routes->match(['get','post'],'infos', 'Infos::index',['filter' => 'auth']);
+$routes->get('/login', 'Login::index', ['filter' => 'noauth']);
+$routes->match(['get','post'],'signin', 'Login::signin', ['filter' => 'noauth']);
+$routes->get('logout', 'Login::logout');
 $routes->get('/emplacementpixel_view','Ajoutimgdspxl::emplacementpixel_view');
 $routes->get('/ajoutimagedanspixel','Achat::ajoutimagedanspixel');
+$routes->match(['get','post'],'mdpoublie', 'Login::mdpoublie', ['filter' => 'noauth']);
+$routes->match(['get','post'],'deleteacc', 'Login::deleteacc', ['filter' => 'noauth']);
 
 /**
  * --------------------------------------------------------------------

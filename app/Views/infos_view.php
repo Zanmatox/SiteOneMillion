@@ -1,36 +1,62 @@
 
+        <link rel="stylesheet" type="text/css" href="public/assets/css/infos.css">
 
         <!-- Infos Personne Connecté -->
-        <section id="informations">
+        <section class="informations">
             <h3 class="text-center">Informations</h3>
-            <form action="" class="form-group">
+            <?php if (session()->get('success')): ?>
+                <div class="alert alert-success" role="alert">
+                    <?= session()->get('success') ?>
+                    
+                </div>
+            <?php endif; ?>
+
+            <form action="<?php echo base_url('/Infos') ?>" class="form-group" method="post">
                 <div class="form-group">
+                    <div>
                     <label for="nom">Nom : </label>
-                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
+                    <input type="text" class="form-control" id="nom" name="nom" value="<?= $_SESSION['utilisateurConnecte_nom']; ?>">
+                    </div>
+                    <div>
+                    <label for="nom">Prénom : </label>
+                    <input type="text" class="form-control" id="prenom" name="prenom" value="<?= $_SESSION['utilisateurConnecte_prenom']; ?>">
+                    </div>
+
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="text" class="form-control" id="email" name="email" value="<?= $_SESSION['utilisateurConnecte_email']; ?>">
+               
                 </div>
                 <div class="form-group">
-                    <label for="prenom">Prénom : </label>
-                    <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Nom" required>
+                    <label for="siret">Numero de SIRET :</label>
+                    <input type="text" class="form-control" id="siret" name="siret" value="<?= $_SESSION['utilisateurConnecte_siret']; ?>">
+                    
+
                 </div>
                 <div class="form-group">
-                    <label for="email">Adresse mail :</label>
-                    <input type="text" class="form-control" id="email" name="email" placeholder="Adresse mail" required>
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" class="form-control" id="mdp" name="mdp" value="" placeholder="Entrez votre mot de passe">
+                    <label for="password">Confirmez Mot de passe :</label>
+                    <input type="password" class="form-control" id="password_confirm" name="password_confirm" value="" placeholder="Entrez votre mot de passe">
+
+                    <?php if (isset($validation)): ?>
+                        <div class="col-12">
+                            <div class="alert alert-danger" role="alert">
+                                <?= $validation->listErrors() ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                    <a href="<?php echo base_url("/Login/deleteacc")?>">Suppression du compte</a>
                 </div>
                 <div class="form-group">
-                    <label for="name">Numéro de téléphone :</label>
-                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Numéro de téléphone" required>
-                </div>
-                <div class="form-group">
-                    <label for="name">Entreprise :</label>
-                    <input type="text" class="form-control" id="subject" name="name" placeholder="Entreprise" required>
-                </div>
-                <div class="form-group">
-                    <button type="button" id="enregistrer" name="enregistrer" class="btn btn-primary">Enregistrer</button>
+                    <button type="submit" id="enregistrer" name="enregistrer" class="btn btn-primary">Enregistrer</button>
                 </div>
             </form>
         </section>
 
-        <style>
+        <!--style>
             
 
 /* Infomartion */
@@ -70,6 +96,6 @@
     background: #ffc107;
     color: #000;
   }
-  </style>
+  </style-->
 
 
