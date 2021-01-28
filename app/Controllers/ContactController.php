@@ -32,7 +32,7 @@ class ContactController extends BaseController
                 'Message'  => $this->request->getVar('Message'),
             ]);          
 
-            return $this->response->redirect(base_url('/ContactController/create'));
+            return $this->response->redirect(base_url('ContactController/create'));
         }
     }
 

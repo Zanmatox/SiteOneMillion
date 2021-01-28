@@ -1,33 +1,118 @@
 .navbar {
-  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: url(../img/orange.jpg);
-  z-index: 9999;
-  border: 0;
-  font-size: 14px !important;
-  line-height: 1.42857143 !important;
-  letter-spacing: 4px;
-  border-radius: 0;
+  font-weight: bold;
+  color: white;
 }
 
-.navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
+
+.navLeft
+{
+  font-size: 35px;
+  margin: 10px;
+}
+.navRight ul
+{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navRight li
+{
+  list-style: none;
+  font-size: 25px;
+  text-align: center;
+}
+.navRight li a
+{
+  color: white;
+  display: block;
+  padding: 20px;
+}
+.navRight li a:hover
+{
+  background-color: white;
+  color: #f4511e
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #f4511e !important;
-  background-color: #fff !important;
-}
-
-.navbar-default .navbar-toggle {
-  
-  border-color: transparent;
-  color: #fff !important;
-}
-
-#footer {
+#responsiveButton
+{
   position: absolute;
-  bottom: 10%;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 30px;
+  top: 23px;
+  right: 20px;
+}
+#responsiveButton span
+{
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#chkBox
+{
+  display: none;
+}
+
+@media(max-width: 700px)
+{
+  .navbar{
+    flex-flow: column wrap;
+    align-items: center;
+    transition: 0.5s ease-out;
+  }
+  .navLeft
+  {
+    position: relative;
+    right: 15%;
+  }
+  .navRight
+  {
+    position: absolute;
+    top: 70px;
+    background: url(../img/orange.jpg);
+    color: black;
+    width: 100%;
+    transform: translateX(-700px);
+    transition: 0.5s ease;
+  }
+  .navRight ul
+  {
+    flex-flow: column wrap;
+    left: -50%;
+  }
+  .navRight li a
+  {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  #responsiveButton
+  {
+    display: flex;
+    cursor: pointer;
+  }
+  #chkBox:checked+div
+  {
+    transform: translateX(0px);
+    transition: 0.5s ease;
+  }
+  #chkBox
+  {
+    display: none;
+  }
+}
+
+.tm-footer {
+  position: absolute;
+  bottom: -400px;
   left: 0;
   right: 0;
-  padding: 0 15px;
+  padding: 0 20px;
 }
